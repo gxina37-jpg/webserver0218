@@ -1,0 +1,482 @@
+[2026-02-18 02:20:31.244249] [INFO ] ========== Server Start ==========
+[2026-02-18 02:20:31.244288] [INFO ] Log mode: SYNC
+[2026-02-18 02:20:31.244329] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 02:20:31.244333] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-18 02:20:31.244337] [INFO ] Access control enabled: NO
+[2026-02-18 02:20:31.244354] [INFO ] Socket created successfully, fd=4
+[2026-02-18 02:20:31.249275] [INFO ] Thread pool created successfully
+[2026-02-18 02:20:31.249319] [INFO ] Socket bound to port 8080
+[2026-02-18 02:20:31.249371] [INFO ] Server is listening on port 8080
+[2026-02-18 02:20:31.249382] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 02:22:26.075884] [INFO ] New connection from 192.168.3.71:57116, connfd=6
+[2026-02-18 02:22:26.076134] [INFO ] New connection from 192.168.3.71:61146, connfd=7
+[2026-02-18 02:22:26.116671] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 02:22:26.116859] [DEBUG] Parsing request line: GET /404.html HTTP/1.1
+[2026-02-18 02:22:26.116891] [INFO ] HTTP Request: GET /404.html HTTP/1.1
+[2026-02-18 02:22:26.116919] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/404.html
+[2026-02-18 02:22:26.116965] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/404.html, size=965 bytes
+[2026-02-18 02:22:26.116984] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:22:26.117315] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 02:22:26.117548] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 02:22:26.118847] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 02:22:26.429375] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 02:22:26.429489] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 02:22:26.429648] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-18 02:22:26.429682] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-18 02:22:26.429705] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/favicon.ico
+[2026-02-18 02:22:26.429729] [WARN ] File not found: /home/nowcoder/Linux/lesson02/resources/favicon.ico
+[2026-02-18 02:22:26.429735] [DEBUG] Processing request, result code: 3
+[2026-02-18 02:22:26.429766] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 02:22:26.429813] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 02:22:41.512203] [INFO ] sockfd 6 closed
+[2026-02-18 02:22:41.513441] [INFO ] sockfd 7 closed
+[2026-02-18 02:22:45.397767] [INFO ] New connection from 192.168.3.71:54159, connfd=6
+[2026-02-18 02:22:45.488678] [INFO ] New connection from 192.168.3.71:53633, connfd=7
+[2026-02-18 02:22:45.489406] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 02:22:45.489601] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 02:22:45.489755] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 02:22:45.489782] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 02:22:45.489809] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 02:22:45.489937] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 02:22:45.490889] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:22:45.491305] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 02:22:45.493154] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 02:23:00.642822] [INFO ] sockfd 6 closed
+[2026-02-18 02:23:00.643825] [INFO ] sockfd 7 closed
+[2026-02-18 02:23:06.528496] [INFO ] New connection from 192.168.3.71:55554, connfd=6
+[2026-02-18 02:23:06.528638] [INFO ] New connection from 192.168.3.71:52832, connfd=7
+[2026-02-18 02:23:06.532322] [DEBUG] EPOLLIN event on sockfd=7
+[2026-02-18 02:23:06.532440] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-02-18 02:23:06.532767] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 02:23:06.532824] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 02:23:06.532853] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 02:23:06.532881] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 02:23:06.532898] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:23:06.533051] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-18 02:23:06.533796] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-18 02:23:10.381630] [DEBUG] EPOLLIN event on sockfd=7
+[2026-02-18 02:23:10.381763] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-02-18 02:23:10.382058] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 02:23:10.382184] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 02:23:10.382236] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 02:23:10.382273] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 02:23:10.382284] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:23:10.382807] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-18 02:23:10.385911] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-18 02:23:14.908942] [DEBUG] EPOLLIN event on sockfd=7
+[2026-02-18 02:23:14.909159] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-02-18 02:23:14.909845] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 02:23:14.909902] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 02:23:14.909928] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 02:23:14.909959] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 02:23:14.909964] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:23:14.910169] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-18 02:23:14.910360] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-18 02:23:18.774691] [DEBUG] EPOLLIN event on sockfd=7
+[2026-02-18 02:23:18.775136] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 02:23:18.775163] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 02:23:18.775245] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 02:23:18.775275] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 02:23:18.775281] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:23:18.775294] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-02-18 02:23:18.775315] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-18 02:23:18.776357] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-18 02:23:21.783426] [INFO ] sockfd 6 closed
+[2026-02-18 02:23:33.823988] [INFO ] sockfd 7 closed
+[2026-02-18 02:23:45.044804] [INFO ] New connection from 192.168.3.71:64512, connfd=6
+[2026-02-18 02:23:45.044943] [INFO ] New connection from 192.168.3.71:60893, connfd=7
+[2026-02-18 02:23:45.047747] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 02:23:45.047852] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 02:23:45.048331] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 02:23:45.048391] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 02:23:45.048420] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 02:23:45.048447] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 02:23:45.048453] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:23:45.048609] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 02:23:45.049690] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 02:24:00.180234] [INFO ] sockfd 6 closed
+[2026-02-18 02:24:00.181053] [INFO ] sockfd 7 closed
+[2026-02-18 02:31:36.521174] [INFO ] ========== Server Start ==========
+[2026-02-18 02:31:36.521280] [INFO ] Log mode: SYNC
+[2026-02-18 02:31:36.521356] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 02:31:36.521370] [INFO ] Blacklist file not loaded or empty (127.0.0.1)
+[2026-02-18 02:31:36.521377] [INFO ] Access control enabled: NO
+[2026-02-18 02:31:36.521396] [INFO ] Socket created successfully, fd=4
+[2026-02-18 02:31:36.525369] [INFO ] Thread pool created successfully
+[2026-02-18 02:31:36.525462] [INFO ] Socket bound to port 8080
+[2026-02-18 02:31:36.525532] [INFO ] Server is listening on port 8080
+[2026-02-18 02:31:36.525546] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 02:31:44.444710] [INFO ] New connection from 192.168.3.71:57660, connfd=6
+[2026-02-18 02:31:44.444847] [INFO ] New connection from 192.168.3.71:62396, connfd=7
+[2026-02-18 02:31:44.445852] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 02:31:44.445912] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 02:31:44.446181] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 02:31:44.446213] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 02:31:44.446247] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 02:31:44.446324] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 02:31:44.446337] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:31:44.447195] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 02:31:44.448655] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 02:31:59.583682] [INFO ] sockfd 6 closed
+[2026-02-18 02:31:59.585931] [INFO ] sockfd 7 closed
+[2026-02-18 02:33:19.625053] [INFO ] ========== Server Start ==========
+[2026-02-18 02:33:19.625145] [INFO ] Log mode: SYNC
+[2026-02-18 02:33:19.625199] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 02:33:19.625211] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-18 02:33:19.625218] [INFO ] Access control enabled: NO
+[2026-02-18 02:33:19.625238] [INFO ] Socket created successfully, fd=4
+[2026-02-18 02:33:19.636860] [INFO ] Thread pool created successfully
+[2026-02-18 02:33:19.636918] [ERROR] Failed to bind socket to port 8080
+[2026-02-18 02:41:45.751556] [INFO ] ========== Server Start ==========
+[2026-02-18 02:41:45.751688] [INFO ] Log mode: SYNC
+[2026-02-18 02:41:45.751795] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 02:41:45.751806] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 02:41:45.751811] [INFO ] Access control enabled: YES
+[2026-02-18 02:41:45.751826] [INFO ] Socket created successfully, fd=4
+[2026-02-18 02:41:45.762173] [INFO ] Thread pool created successfully
+[2026-02-18 02:41:45.762302] [INFO ] Socket bound to port 8080
+[2026-02-18 02:41:45.762575] [INFO ] Server is listening on port 8080
+[2026-02-18 02:41:45.762628] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 02:41:56.456772] [INFO ] New connection from 192.168.3.71:58254, connfd=6
+[2026-02-18 02:41:56.457502] [INFO ] New connection from 192.168.3.71:52915, connfd=7
+[2026-02-18 02:41:56.457534] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 02:41:56.457580] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 02:41:56.458677] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 02:41:56.458785] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 02:41:56.458813] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 02:41:56.458883] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 02:41:56.458913] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:41:56.459165] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 02:41:56.459992] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 02:42:11.521235] [INFO ] sockfd 6 closed
+[2026-02-18 02:42:11.524811] [INFO ] sockfd 7 closed
+[2026-02-18 02:52:06.071984] [INFO ] New connection from 192.168.3.71:55877, connfd=6
+[2026-02-18 02:52:06.072132] [INFO ] New connection from 192.168.3.71:51188, connfd=7
+[2026-02-18 02:52:06.073127] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 02:52:06.073221] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 02:52:06.073306] [DEBUG] Parsing request line: GET /404.html HTTP/1.1
+[2026-02-18 02:52:06.073326] [INFO ] HTTP Request: GET /404.html HTTP/1.1
+[2026-02-18 02:52:06.073354] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/404.html
+[2026-02-18 02:52:06.073375] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/404.html, size=965 bytes
+[2026-02-18 02:52:06.073380] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:52:06.073637] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 02:52:06.074489] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 02:52:21.111398] [INFO ] sockfd 6 closed
+[2026-02-18 02:52:21.112786] [INFO ] sockfd 7 closed
+[2026-02-18 02:52:24.383469] [INFO ] New connection from 192.168.3.71:64553, connfd=6
+[2026-02-18 02:52:24.383641] [INFO ] New connection from 192.168.3.71:56525, connfd=7
+[2026-02-18 02:52:24.395209] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 02:52:24.395370] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 02:52:24.395809] [DEBUG] Parsing request line: GET /404.html HTTP/1.1
+[2026-02-18 02:52:24.396489] [INFO ] HTTP Request: GET /404.html HTTP/1.1
+[2026-02-18 02:52:24.396611] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/404.html
+[2026-02-18 02:52:24.396666] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/404.html, size=965 bytes
+[2026-02-18 02:52:24.396674] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:52:24.397024] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 02:52:24.397368] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 02:52:25.173869] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 02:52:25.173995] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 02:52:25.174792] [DEBUG] Parsing request line: GET /404.html HTTP/1.1
+[2026-02-18 02:52:25.174858] [INFO ] HTTP Request: GET /404.html HTTP/1.1
+[2026-02-18 02:52:25.174932] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/404.html
+[2026-02-18 02:52:25.174962] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/404.html, size=965 bytes
+[2026-02-18 02:52:25.174967] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:52:25.175373] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 02:52:25.175454] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 02:52:25.451204] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 02:52:25.451330] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 02:52:25.451902] [DEBUG] Parsing request line: GET /404.html HTTP/1.1
+[2026-02-18 02:52:25.451989] [INFO ] HTTP Request: GET /404.html HTTP/1.1
+[2026-02-18 02:52:25.452022] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/404.html
+[2026-02-18 02:52:25.452050] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/404.html, size=965 bytes
+[2026-02-18 02:52:25.452056] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:52:25.452291] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 02:52:25.452488] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 02:52:25.609021] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 02:52:25.609244] [DEBUG] Parsing request line: GET /404.html HTTP/1.1
+[2026-02-18 02:52:25.609283] [INFO ] HTTP Request: GET /404.html HTTP/1.1
+[2026-02-18 02:52:25.609327] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/404.html
+[2026-02-18 02:52:25.609370] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/404.html, size=965 bytes
+[2026-02-18 02:52:25.609380] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:52:25.609406] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 02:52:25.609428] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 02:52:25.610037] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 02:52:34.929867] [INFO ] ========== Server Start ==========
+[2026-02-18 02:52:34.929939] [INFO ] Log mode: SYNC
+[2026-02-18 02:52:34.930029] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 02:52:34.930039] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 02:52:34.930044] [INFO ] Access control enabled: YES
+[2026-02-18 02:52:34.930057] [INFO ] Socket created successfully, fd=4
+[2026-02-18 02:52:34.933044] [INFO ] Thread pool created successfully
+[2026-02-18 02:52:34.933116] [ERROR] Failed to bind socket to port 8080
+[2026-02-18 02:52:40.397995] [INFO ] ========== Server Start ==========
+[2026-02-18 02:52:40.398072] [INFO ] Log mode: SYNC
+[2026-02-18 02:52:40.398145] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 02:52:40.398154] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 02:52:40.398158] [INFO ] Access control enabled: YES
+[2026-02-18 02:52:40.398172] [INFO ] Socket created successfully, fd=4
+[2026-02-18 02:52:40.402933] [INFO ] Thread pool created successfully
+[2026-02-18 02:52:40.403016] [ERROR] Failed to bind socket to port 8080
+[2026-02-18 02:52:50.561946] [INFO ] ========== Server Start ==========
+[2026-02-18 02:52:50.562021] [INFO ] Log mode: SYNC
+[2026-02-18 02:52:50.562097] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 02:52:50.562105] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 02:52:50.562110] [INFO ] Access control enabled: YES
+[2026-02-18 02:52:50.562125] [INFO ] Socket created successfully, fd=4
+[2026-02-18 02:52:50.564375] [INFO ] Thread pool created successfully
+[2026-02-18 02:52:50.564440] [ERROR] Failed to bind socket to port 8080
+[2026-02-18 02:54:19.043904] [INFO ] ========== Server Start ==========
+[2026-02-18 02:54:19.043992] [INFO ] Log mode: SYNC
+[2026-02-18 02:54:19.044099] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 02:54:19.044112] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 02:54:19.044116] [INFO ] Access control enabled: YES
+[2026-02-18 02:54:19.044130] [INFO ] Socket created successfully, fd=4
+[2026-02-18 02:54:19.046746] [INFO ] Thread pool created successfully
+[2026-02-18 02:54:19.046818] [INFO ] Socket bound to port 8080
+[2026-02-18 02:54:19.046901] [INFO ] Server is listening on port 8080
+[2026-02-18 02:54:19.046921] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 02:54:21.530336] [INFO ] New connection from 192.168.3.71:60300, connfd=6
+[2026-02-18 02:54:21.530608] [INFO ] New connection from 192.168.3.71:62488, connfd=7
+[2026-02-18 02:54:21.530750] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 02:54:21.530841] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 02:54:21.531037] [DEBUG] Parsing request line: GET /404.html HTTP/1.1
+[2026-02-18 02:54:21.531276] [INFO ] HTTP Request: GET /404.html HTTP/1.1
+[2026-02-18 02:54:21.531351] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/404.html
+[2026-02-18 02:54:21.531383] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/404.html, size=965 bytes
+[2026-02-18 02:54:21.531396] [DEBUG] Processing request, result code: 5
+[2026-02-18 02:54:21.531715] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 02:54:21.531810] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 02:54:36.680586] [INFO ] sockfd 6 closed
+[2026-02-18 02:54:36.684248] [INFO ] sockfd 7 closed
+[2026-02-18 03:00:19.675726] [INFO ] ========== Server Start ==========
+[2026-02-18 03:00:19.675812] [INFO ] Log mode: SYNC
+[2026-02-18 03:00:19.675922] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 03:00:19.675938] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 03:00:19.675946] [INFO ] Access control enabled: YES
+[2026-02-18 03:00:19.675961] [INFO ] Socket created successfully, fd=4
+[2026-02-18 03:00:19.678458] [INFO ] Thread pool created successfully
+[2026-02-18 03:00:19.678525] [INFO ] Socket bound to port 8080
+[2026-02-18 03:00:19.678573] [INFO ] Server is listening on port 8080
+[2026-02-18 03:00:19.678586] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 03:00:29.407855] [INFO ] New connection from 192.168.3.71:60831, connfd=6
+[2026-02-18 03:00:29.407921] [INFO ] New connection from 192.168.3.71:55252, connfd=7
+[2026-02-18 03:00:29.408879] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 03:00:29.408971] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 03:00:29.409579] [DEBUG] Parsing request line: GET /404.html HTTP/1.1
+[2026-02-18 03:00:29.409640] [INFO ] HTTP Request: GET /404.html HTTP/1.1
+[2026-02-18 03:00:29.409668] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/404.html
+[2026-02-18 03:00:29.409694] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/404.html, size=965 bytes
+[2026-02-18 03:00:29.409700] [DEBUG] Processing request, result code: 5
+[2026-02-18 03:00:29.409720] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 03:00:29.409892] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 03:00:44.488140] [INFO ] sockfd 6 closed
+[2026-02-18 03:00:44.494745] [INFO ] sockfd 7 closed
+[2026-02-18 03:01:43.879453] [INFO ] ========== Server Start ==========
+[2026-02-18 03:01:43.879534] [INFO ] Log mode: SYNC
+[2026-02-18 03:01:43.879631] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 03:01:43.879640] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 03:01:43.879645] [INFO ] Access control enabled: YES
+[2026-02-18 03:01:43.879660] [INFO ] Socket created successfully, fd=4
+[2026-02-18 03:01:43.882280] [INFO ] Thread pool created successfully
+[2026-02-18 03:01:43.882355] [ERROR] Failed to bind socket to port 8080
+[2026-02-18 03:02:13.142759] [INFO ] ========== Server Start ==========
+[2026-02-18 03:02:13.142884] [INFO ] Log mode: SYNC
+[2026-02-18 03:02:13.143111] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 03:02:13.143130] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 03:02:13.143135] [INFO ] Access control enabled: YES
+[2026-02-18 03:02:13.143150] [INFO ] Socket created successfully, fd=4
+[2026-02-18 03:02:13.145756] [INFO ] Thread pool created successfully
+[2026-02-18 03:02:13.145827] [INFO ] Socket bound to port 8080
+[2026-02-18 03:02:13.145927] [INFO ] Server is listening on port 8080
+[2026-02-18 03:02:13.145948] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 03:02:16.913214] [INFO ] New connection from 192.168.3.71:59009, connfd=6
+[2026-02-18 03:02:16.913357] [INFO ] New connection from 192.168.3.71:50219, connfd=7
+[2026-02-18 03:02:16.914176] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 03:02:16.914312] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 03:02:16.914471] [DEBUG] Parsing request line: GET /404.html HTTP/1.1
+[2026-02-18 03:02:16.914511] [INFO ] HTTP Request: GET /404.html HTTP/1.1
+[2026-02-18 03:02:16.914535] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/404.html
+[2026-02-18 03:02:16.914560] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/404.html, size=965 bytes
+[2026-02-18 03:02:16.914565] [DEBUG] Processing request, result code: 5
+[2026-02-18 03:02:16.914649] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 03:02:16.915105] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 03:04:03.963461] [INFO ] ========== Server Start ==========
+[2026-02-18 03:04:03.963553] [INFO ] Log mode: SYNC
+[2026-02-18 03:04:03.963630] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 03:04:03.963639] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 03:04:03.963643] [INFO ] Access control enabled: YES
+[2026-02-18 03:04:03.963657] [INFO ] Socket created successfully, fd=4
+[2026-02-18 03:04:03.966194] [INFO ] Thread pool created successfully
+[2026-02-18 03:04:03.966281] [INFO ] Socket bound to port 8080
+[2026-02-18 03:04:03.966358] [INFO ] Server is listening on port 8080
+[2026-02-18 03:04:03.966379] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 03:04:26.969680] [INFO ] New connection from 192.168.3.71:62652, connfd=6
+[2026-02-18 03:04:26.969860] [INFO ] New connection from 192.168.3.71:57699, connfd=7
+[2026-02-18 03:04:26.971054] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 03:04:26.971176] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 03:04:26.971246] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 03:04:26.971266] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 03:04:26.971289] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 03:04:26.971329] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 03:04:26.971341] [DEBUG] Processing request, result code: 5
+[2026-02-18 03:04:26.971564] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 03:04:26.972849] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 03:04:41.028086] [INFO ] sockfd 6 closed
+[2026-02-18 03:04:41.028774] [INFO ] sockfd 7 closed
+[2026-02-18 03:15:58.264360] [INFO ] ========== Server Start ==========
+[2026-02-18 03:15:58.264437] [INFO ] Log mode: SYNC
+[2026-02-18 03:15:58.264713] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 03:15:58.264734] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 03:15:58.264740] [INFO ] Access control enabled: YES
+[2026-02-18 03:15:58.264754] [INFO ] Socket created successfully, fd=4
+[2026-02-18 03:15:58.267411] [INFO ] Thread pool created successfully
+[2026-02-18 03:15:58.267443] [INFO ] Socket bound to port 8080
+[2026-02-18 03:15:58.267482] [INFO ] Server is listening on port 8080
+[2026-02-18 03:15:58.267493] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 03:16:02.105701] [INFO ] New connection from 192.168.3.71:52262, connfd=6
+[2026-02-18 03:16:02.105795] [INFO ] New connection from 192.168.3.71:59131, connfd=7
+[2026-02-18 03:16:02.106945] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 03:16:02.107011] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 03:16:02.107145] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 03:16:02.107170] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 03:16:02.107191] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 03:16:02.107217] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 03:16:02.107223] [DEBUG] Processing request, result code: 5
+[2026-02-18 03:16:02.107495] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 03:16:02.107575] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 03:39:57.490057] [INFO ] ========== Server Start ==========
+[2026-02-18 03:39:57.490143] [INFO ] Log mode: SYNC
+[2026-02-18 03:39:57.490257] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 03:39:57.490270] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 03:39:57.490275] [INFO ] Access control enabled: YES
+[2026-02-18 03:39:57.490289] [INFO ] Socket created successfully, fd=4
+[2026-02-18 03:39:57.492578] [INFO ] Thread pool created successfully
+[2026-02-18 03:39:57.492620] [INFO ] Socket bound to port 8080
+[2026-02-18 03:39:57.492643] [INFO ] Server is listening on port 8080
+[2026-02-18 03:39:57.492652] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 03:40:26.908280] [INFO ] New connection from 192.168.3.71:60273, connfd=6
+[2026-02-18 03:40:26.908390] [INFO ] New connection from 192.168.3.71:59188, connfd=7
+[2026-02-18 03:40:26.964568] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 03:40:26.964755] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 03:40:26.966451] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 03:40:26.966517] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 03:40:26.966543] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 03:40:26.966570] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 03:40:26.966576] [DEBUG] Processing request, result code: 5
+[2026-02-18 03:40:26.966841] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 03:40:26.967536] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 03:40:41.059033] [INFO ] sockfd 6 closed
+[2026-02-18 03:40:41.059650] [INFO ] sockfd 7 closed
+[2026-02-18 03:42:22.165461] [INFO ] ========== Server Start ==========
+[2026-02-18 03:42:22.165541] [INFO ] Log mode: SYNC
+[2026-02-18 03:42:22.165665] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 03:42:22.165677] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 03:42:22.165693] [INFO ] Access control enabled: YES
+[2026-02-18 03:42:22.165708] [INFO ] Socket created successfully, fd=4
+[2026-02-18 03:42:22.168119] [INFO ] Thread pool created successfully
+[2026-02-18 03:42:22.168297] [INFO ] Socket bound to port 8080
+[2026-02-18 03:42:22.168355] [INFO ] Server is listening on port 8080
+[2026-02-18 03:42:22.168371] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 03:42:28.217097] [INFO ] New connection from 192.168.3.71:54044, connfd=6
+[2026-02-18 03:42:28.217207] [INFO ] New connection from 192.168.3.71:64746, connfd=7
+[2026-02-18 03:42:28.220494] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 03:42:28.220622] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 03:42:28.220826] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 03:42:28.220890] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 03:42:28.220921] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 03:42:28.221739] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 03:42:28.225651] [DEBUG] Processing request, result code: 5
+[2026-02-18 03:42:28.226062] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 03:42:28.227155] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 03:47:14.032490] [INFO ] ========== Server Start ==========
+[2026-02-18 03:47:14.032645] [INFO ] Log mode: SYNC
+[2026-02-18 03:47:14.033010] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 03:47:14.033050] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 03:47:14.033062] [INFO ] Access control enabled: YES
+[2026-02-18 03:47:14.033080] [INFO ] Socket created successfully, fd=4
+[2026-02-18 03:47:14.035978] [INFO ] Thread pool created successfully
+[2026-02-18 03:47:14.036034] [INFO ] Socket bound to port 8080
+[2026-02-18 03:47:14.036102] [INFO ] Server is listening on port 8080
+[2026-02-18 03:47:14.036159] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 03:47:25.068150] [INFO ] New connection from 192.168.3.71:51269, connfd=6
+[2026-02-18 03:47:25.068486] [INFO ] New connection from 192.168.3.71:56439, connfd=7
+[2026-02-18 03:47:25.069216] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 03:47:25.069283] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 03:47:25.069365] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 03:47:25.069388] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 03:47:25.069410] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 03:47:25.069434] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 03:47:25.069440] [DEBUG] Processing request, result code: 5
+[2026-02-18 03:47:25.069462] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 03:47:25.069513] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 03:54:41.353224] [INFO ] ========== Server Start ==========
+[2026-02-18 03:54:41.353291] [INFO ] Log mode: SYNC
+[2026-02-18 03:54:41.353502] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 03:54:41.353524] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 03:54:41.353531] [INFO ] Access control enabled: YES
+[2026-02-18 03:54:41.353546] [INFO ] Socket created successfully, fd=4
+[2026-02-18 03:54:41.356067] [INFO ] Thread pool created successfully
+[2026-02-18 03:54:41.356131] [INFO ] Socket bound to port 8080
+[2026-02-18 03:54:41.356199] [INFO ] Server is listening on port 8080
+[2026-02-18 03:54:41.356215] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 03:54:47.021776] [INFO ] New connection from 192.168.3.71:63855, connfd=6
+[2026-02-18 03:54:47.021844] [INFO ] New connection from 192.168.3.71:53890, connfd=7
+[2026-02-18 03:54:47.023404] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 03:54:47.023492] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 03:54:47.023737] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 03:54:47.023775] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 03:54:47.023796] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 03:54:47.023820] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 03:54:47.023825] [DEBUG] Processing request, result code: 5
+[2026-02-18 03:54:47.023930] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 03:54:47.024661] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 03:56:33.932633] [INFO ] ========== Server Start ==========
+[2026-02-18 03:56:33.932713] [INFO ] Log mode: SYNC
+[2026-02-18 03:56:33.932854] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 03:56:33.932867] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 03:56:33.932872] [INFO ] Access control enabled: YES
+[2026-02-18 03:56:33.932887] [INFO ] Socket created successfully, fd=4
+[2026-02-18 03:56:33.936507] [INFO ] Thread pool created successfully
+[2026-02-18 03:56:33.936550] [INFO ] Socket bound to port 8080
+[2026-02-18 03:56:33.936643] [INFO ] Server is listening on port 8080
+[2026-02-18 03:56:33.936729] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 03:56:38.428606] [INFO ] New connection from 192.168.3.71:58925, connfd=6
+[2026-02-18 03:56:38.428739] [INFO ] New connection from 192.168.3.71:54274, connfd=7
+[2026-02-18 03:56:38.430450] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 03:56:38.430569] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 03:56:38.430813] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 03:56:38.430850] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 03:56:38.430879] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 03:56:38.430918] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 03:56:38.430924] [DEBUG] Processing request, result code: 5
+[2026-02-18 03:56:38.431024] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 03:56:38.431088] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 03:58:14.983611] [INFO ] ========== Server Start ==========
+[2026-02-18 03:58:14.983732] [INFO ] Log mode: SYNC
+[2026-02-18 03:58:14.983891] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 03:58:14.983918] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 03:58:14.983928] [INFO ] Access control enabled: YES
+[2026-02-18 03:58:14.983953] [INFO ] Socket created successfully, fd=4
+[2026-02-18 03:58:14.986556] [INFO ] Thread pool created successfully
+[2026-02-18 03:58:14.986630] [INFO ] Socket bound to port 8080
+[2026-02-18 03:58:14.986722] [INFO ] Server is listening on port 8080
+[2026-02-18 03:58:14.986742] [INFO ] Epoll created successfully, epfd=5
+[2026-02-18 03:58:18.058743] [INFO ] New connection from 192.168.3.71:54094, connfd=6
+[2026-02-18 03:58:18.058851] [INFO ] New connection from 192.168.3.71:58623, connfd=7
+[2026-02-18 03:58:18.060875] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-18 03:58:18.060963] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-18 03:58:18.061072] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-02-18 03:58:18.061102] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-02-18 03:58:18.061125] [INFO ] Requesting file: /home/nowcoder/Linux/lesson02/resources/index.html
+[2026-02-18 03:58:18.061156] [INFO ] File request successful: /home/nowcoder/Linux/lesson02/resources/index.html, size=16634 bytes
+[2026-02-18 03:58:18.061162] [DEBUG] Processing request, result code: 5
+[2026-02-18 03:58:18.061378] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-18 03:58:18.062207] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-18 03:59:09.168743] [INFO ] ========== Server Start ==========
+[2026-02-18 03:59:09.168822] [INFO ] Log mode: SYNC
+[2026-02-18 03:59:09.169073] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-18 03:59:09.169089] [INFO ] Blacklist loaded: 1 entries (./blacklist.conf)
+[2026-02-18 03:59:09.169105] [INFO ] Access control enabled: YES
+[2026-02-18 03:59:09.169121] [INFO ] Socket created successfully, fd=4
+[2026-02-18 03:59:09.171989] [INFO ] Thread pool created successfully
+[2026-02-18 03:59:09.172044] [ERROR] Failed to bind socket to port 8080
