@@ -1,0 +1,771 @@
+[2026-02-22 06:19:01.227718] [INFO ] ========== Server Start ==========
+[2026-02-22 06:19:01.227733] [INFO ] Log mode: ASYNC
+[2026-02-22 06:19:01.227809] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 06:19:01.228082] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 06:19:01.228098] [INFO ] Access control enabled: NO
+[2026-02-22 06:19:01.228112] [INFO ] Socket created successfully, fd=4
+[2026-02-22 06:19:01.231973] [INFO ] Thread pool created successfully
+[2026-02-22 06:19:01.232014] [INFO ] Socket bound to port 8080
+[2026-02-22 06:19:01.232099] [INFO ] Server is listening on port 8080
+[2026-02-22 06:19:01.232117] [INFO ] Epoll created successfully, epfd=5
+[2026-02-22 06:19:31.976962] [INFO ] New connection from 192.168.3.71:54780, connfd=6
+[2026-02-22 06:19:31.977196] [INFO ] New connection from 192.168.3.71:58572, connfd=7
+[2026-02-22 06:19:31.983587] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:19:31.983698] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:19:31.983970] [DEBUG] Parsing request line: GET /404.html HTTP/1.1
+[2026-02-22 06:19:31.984013] [INFO ] HTTP Request: GET /404.html HTTP/1.1
+[2026-02-22 06:19:31.984038] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/404.html
+[2026-02-22 06:19:31.984075] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/404.html, size=965 bytes
+[2026-02-22 06:19:31.984080] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:19:31.984205] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:19:31.985980] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:19:32.313669] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:19:32.313856] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:19:32.314029] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:19:32.314050] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:19:32.314070] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:19:32.314092] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:19:32.314095] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:19:32.314101] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:19:32.315001] [DEBUG] EPOLLIN event on sockfd=7
+[2026-02-22 06:19:32.315066] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-02-22 06:19:32.315245] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:19:32.315265] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:19:32.315284] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:19:32.315293] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:19:32.315296] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:19:32.315300] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:19:32.316668] [INFO ] New connection from 192.168.3.71:54289, connfd=6
+[2026-02-22 06:19:32.316812] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:19:32.316832] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:19:32.316936] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:19:32.316974] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:19:32.317016] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:19:32.317040] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:19:32.317060] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:19:32.317073] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:19:44.114134] [INFO ] New connection from 192.168.3.71:63475, connfd=6
+[2026-02-22 06:19:44.114273] [INFO ] New connection from 192.168.3.71:49843, connfd=7
+[2026-02-22 06:19:44.114433] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:19:44.114540] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:19:44.114939] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:19:44.115211] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:19:44.115358] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:19:44.115428] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:19:44.115444] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:19:44.115901] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:19:44.118706] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:19:44.262192] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:19:44.262315] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:19:44.262461] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:19:44.262514] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:19:44.262547] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:19:44.262561] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:19:44.262564] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:19:44.262569] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:19:44.263787] [DEBUG] EPOLLIN event on sockfd=7
+[2026-02-22 06:19:44.263892] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-02-22 06:19:44.264131] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:19:44.264152] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:19:44.264172] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:19:44.264181] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:19:44.264184] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:19:44.264188] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:19:44.265700] [INFO ] New connection from 192.168.3.71:59098, connfd=6
+[2026-02-22 06:19:44.266116] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:19:44.266166] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:19:44.266919] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:19:44.266968] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:19:44.267030] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:19:44.267042] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:19:44.267046] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:19:44.267050] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:19:59.000158] [INFO ] New connection from 192.168.3.71:54495, connfd=6
+[2026-02-22 06:19:59.000253] [INFO ] New connection from 192.168.3.71:58506, connfd=7
+[2026-02-22 06:19:59.000803] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:19:59.000861] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:19:59.001161] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:19:59.001193] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:20:02.079137] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:20:02.100155] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:20:02.100841] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:20:02.218846] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:20:02.218962] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:20:02.219220] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:20:02.219241] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:20:02.219273] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:20:02.219290] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:20:02.219293] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:20:02.219297] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:20:02.220252] [DEBUG] EPOLLIN event on sockfd=7
+[2026-02-22 06:20:02.220347] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-02-22 06:20:02.220552] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:20:02.220586] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:20:02.220610] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:20:02.220624] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:20:02.220626] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:20:02.220631] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:20:02.222109] [INFO ] New connection from 192.168.3.71:63841, connfd=6
+[2026-02-22 06:20:02.222226] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:20:02.222252] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:20:02.222287] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:20:02.222297] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:20:02.222313] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:20:02.222326] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:20:02.222330] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:20:02.222335] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:20:15.531086] [INFO ] New connection from 192.168.3.71:62129, connfd=6
+[2026-02-22 06:20:15.624450] [INFO ] New connection from 192.168.3.71:51946, connfd=7
+[2026-02-22 06:20:15.625908] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:20:15.625979] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:20:15.625989] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:20:15.626007] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:20:15.626035] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:20:15.626039] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:20:15.626048] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:20:15.626058] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:20:15.630792] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:20:15.737399] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:20:15.737500] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:20:15.737629] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:20:15.737641] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:20:15.737667] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:20:15.737680] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:20:15.737696] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:20:15.737701] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:20:15.738364] [DEBUG] EPOLLIN event on sockfd=7
+[2026-02-22 06:20:15.738393] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-02-22 06:20:15.738459] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:20:15.738467] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:20:15.738550] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:20:15.738564] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:20:15.738584] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:20:15.738590] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:20:15.740113] [INFO ] New connection from 192.168.3.71:62770, connfd=6
+[2026-02-22 06:20:15.740243] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:20:15.740360] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:20:15.740435] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:20:15.740447] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:20:15.740463] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:20:15.740471] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:20:15.740474] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:20:15.740479] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:20:58.320977] [INFO ] New connection from 192.168.3.71:65124, connfd=6
+[2026-02-22 06:20:58.321185] [INFO ] New connection from 192.168.3.71:57107, connfd=7
+[2026-02-22 06:20:58.328360] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:20:58.328515] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:20:58.328532] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:20:58.328969] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:21:01.404977] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:21:01.405094] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:21:01.405437] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:21:01.509651] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:21:01.509788] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:21:01.510071] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:21:01.510094] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:21:01.510112] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:21:01.510126] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:21:01.510132] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:21:01.510142] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:21:01.510915] [DEBUG] EPOLLIN event on sockfd=7
+[2026-02-22 06:21:01.510975] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-02-22 06:21:01.511072] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:21:01.511083] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:21:01.511104] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:21:01.511113] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:21:01.511116] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:21:01.511121] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:21:01.512667] [INFO ] New connection from 192.168.3.71:55928, connfd=6
+[2026-02-22 06:21:01.512735] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:21:01.512786] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:21:01.512982] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:21:01.512996] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:21:01.513014] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:21:01.513024] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:21:01.513027] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:21:01.513032] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:21:03.301579] [INFO ] New connection from 192.168.3.71:53826, connfd=6
+[2026-02-22 06:21:03.418357] [INFO ] New connection from 192.168.3.71:49811, connfd=7
+[2026-02-22 06:21:03.418845] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:21:03.418900] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:21:03.419081] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:21:03.419190] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:21:03.419218] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:21:03.419288] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:21:03.419303] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:21:03.419505] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:21:03.420391] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:21:03.525799] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:21:03.525877] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:21:03.526120] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:21:03.526171] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:21:03.526290] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:21:03.526318] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:21:03.526323] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:21:03.526327] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:21:03.527194] [DEBUG] EPOLLIN event on sockfd=7
+[2026-02-22 06:21:03.527329] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:21:03.527372] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:21:03.527397] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:21:03.527407] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:21:03.527410] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:21:03.527414] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:21:03.527822] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-02-22 06:21:03.528942] [INFO ] New connection from 192.168.3.71:52977, connfd=6
+[2026-02-22 06:21:03.529083] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:21:03.529136] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:21:03.529218] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:21:03.529258] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:21:03.529281] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:21:03.529292] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:21:03.529295] [DEBUG] Processing request, result code: 3
+[2026-02-22 06:21:03.529299] [ERROR] Response generation failed, closing connection
+[2026-02-22 06:21:12.547056] [INFO ] sockfd 6 closed
+[2026-02-22 06:21:12.554881] [INFO ] sockfd 7 closed
+[2026-02-22 06:21:12.554896] [INFO ] sockfd 6 closed
+[2026-02-22 06:21:24.576059] [INFO ] sockfd 6 closed
+[2026-02-22 06:21:24.586101] [INFO ] sockfd 7 closed
+[2026-02-22 06:21:24.586272] [INFO ] sockfd 6 closed
+[2026-02-22 06:21:42.632196] [INFO ] sockfd 6 closed
+[2026-02-22 06:21:42.632414] [INFO ] sockfd 7 closed
+[2026-02-22 06:21:42.632474] [INFO ] sockfd 6 closed
+[2026-02-22 06:21:55.675195] [INFO ] sockfd 6 closed
+[2026-02-22 06:21:55.676074] [INFO ] sockfd 7 closed
+[2026-02-22 06:21:55.676119] [INFO ] sockfd 6 closed
+[2026-02-22 06:22:41.850799] [INFO ] sockfd 6 closed
+[2026-02-22 06:22:41.850921] [INFO ] sockfd 7 closed
+[2026-02-22 06:22:41.850951] [INFO ] sockfd 6 closed
+[2026-02-22 06:22:43.855113] [INFO ] sockfd 6 closed
+[2026-02-22 06:22:43.855211] [INFO ] sockfd 7 closed
+[2026-02-22 06:22:43.855243] [INFO ] sockfd 6 closed
+[2026-02-22 06:29:12.176359] [INFO ] ========== Server Start ==========
+[2026-02-22 06:29:12.176369] [INFO ] Log mode: ASYNC
+[2026-02-22 06:29:12.176423] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 06:29:12.176427] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 06:29:12.176429] [INFO ] Access control enabled: NO
+[2026-02-22 06:29:12.176440] [INFO ] Socket created successfully, fd=4
+[2026-02-22 06:29:12.179408] [INFO ] Thread pool created successfully
+[2026-02-22 06:29:12.179429] [INFO ] Socket bound to port 8080
+[2026-02-22 06:29:12.179540] [INFO ] Server is listening on port 8080
+[2026-02-22 06:29:12.179555] [INFO ] Epoll created successfully, epfd=5
+[2026-02-22 06:29:17.934634] [INFO ] New connection from 192.168.3.71:65452, connfd=6
+[2026-02-22 06:29:17.934869] [INFO ] New connection from 192.168.3.71:50146, connfd=7
+[2026-02-22 06:29:17.936202] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:29:17.936283] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:29:17.936494] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:29:17.936512] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:29:17.936533] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:29:17.936556] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:29:17.936559] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:29:17.936797] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:29:17.936882] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:29:18.207330] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:29:18.207431] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:29:18.207599] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:29:18.207614] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:29:18.207633] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:29:18.207664] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/favicon.ico, size=16958 bytes
+[2026-02-22 06:29:18.207668] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:29:18.207871] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:29:18.208626] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:29:25.935812] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:29:25.935969] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:29:25.936139] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:29:25.936161] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:29:25.940333] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:29:25.940471] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:29:25.940613] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:29:47.729865] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:29:47.729986] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:29:47.730148] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:29:47.730177] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:29:47.730222] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:29:47.730361] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:29:47.730379] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:29:47.730511] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:29:47.730567] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:29:51.931199] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:29:51.931366] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:29:51.931518] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:29:51.931540] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:29:51.932160] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:29:51.932350] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:29:51.932525] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:31:31.206498] [INFO ] sockfd 6 closed
+[2026-02-22 06:31:31.206970] [INFO ] sockfd 7 closed
+[2026-02-22 06:32:21.655268] [INFO ] New connection from 192.168.3.71:51309, connfd=6
+[2026-02-22 06:32:21.758311] [INFO ] New connection from 192.168.3.71:61798, connfd=7
+[2026-02-22 06:32:21.759813] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:32:21.760025] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:32:21.760235] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:32:21.760328] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:32:21.760385] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:32:21.760440] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:32:21.760449] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:32:21.761637] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:32:21.762084] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:34:01.963274] [INFO ] sockfd 6 closed
+[2026-02-22 06:34:01.964719] [INFO ] sockfd 7 closed
+[2026-02-22 06:36:10.154098] [INFO ] ========== Server Start ==========
+[2026-02-22 06:36:10.154116] [INFO ] Log mode: ASYNC
+[2026-02-22 06:36:10.154234] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 06:36:10.154243] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 06:36:10.154247] [INFO ] Access control enabled: NO
+[2026-02-22 06:36:10.154268] [INFO ] Socket created successfully, fd=4
+[2026-02-22 06:36:10.159180] [INFO ] Thread pool created successfully
+[2026-02-22 06:36:10.159222] [INFO ] Socket bound to port 8080
+[2026-02-22 06:36:10.159311] [INFO ] Server is listening on port 8080
+[2026-02-22 06:36:10.159329] [INFO ] Epoll created successfully, epfd=5
+[2026-02-22 06:36:14.037100] [INFO ] New connection from 192.168.3.71:65368, connfd=6
+[2026-02-22 06:36:14.037219] [INFO ] New connection from 192.168.3.71:53056, connfd=7
+[2026-02-22 06:36:14.038070] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:36:14.038209] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:36:14.038226] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:36:14.038246] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:36:14.038522] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:36:14.038609] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:36:14.038646] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:36:14.038736] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:36:14.039708] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:36:14.289689] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:36:14.289807] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:36:14.289980] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:36:14.290000] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:36:14.290026] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:36:14.290109] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/favicon.ico, size=16958 bytes
+[2026-02-22 06:36:14.290122] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:36:14.290278] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:36:14.291543] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:36:20.712117] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:36:20.712225] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:36:20.712391] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:36:20.712408] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:36:20.716558] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:36:20.716870] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:36:20.717106] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:38:00.964154] [INFO ] sockfd 6 closed
+[2026-02-22 06:38:00.967762] [INFO ] sockfd 7 closed
+[2026-02-22 06:40:31.928396] [INFO ] New connection from 192.168.3.71:55954, connfd=6
+[2026-02-22 06:40:31.928536] [INFO ] New connection from 192.168.3.71:51157, connfd=7
+[2026-02-22 06:40:31.930249] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:40:31.930353] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:40:31.930444] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:40:31.930456] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:40:31.930475] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:40:31.930505] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:40:31.930633] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:40:31.930682] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:40:31.931680] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:40:32.050051] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:40:32.050156] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:40:32.050325] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:40:32.050347] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:40:32.050365] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:40:32.050399] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/favicon.ico, size=16958 bytes
+[2026-02-22 06:40:32.050403] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:40:32.050564] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:40:32.050657] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:40:42.484318] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:40:42.484456] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:40:42.484753] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:40:42.485116] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:40:42.486067] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:40:42.486361] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:40:42.486506] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:40:46.065272] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:40:46.065325] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:40:46.065502] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:40:46.065540] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:40:46.065619] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:40:46.065666] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:40:46.065680] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:40:46.065762] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:40:46.065854] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:40:51.318178] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:40:51.318321] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:40:51.318621] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:40:51.318640] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:40:51.320192] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:40:51.320646] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:40:51.320942] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:41:52.758178] [INFO ] Connection closed, sockfd=7
+[2026-02-22 06:42:31.832725] [INFO ] sockfd 6 closed
+[2026-02-22 06:47:28.996089] [INFO ] New connection from 192.168.3.71:58371, connfd=6
+[2026-02-22 06:47:29.085025] [INFO ] New connection from 192.168.3.71:50765, connfd=7
+[2026-02-22 06:47:29.140795] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:47:29.141026] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:47:29.141187] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:47:29.141213] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:47:29.141244] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:47:29.141272] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:47:29.141276] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:47:29.141364] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:47:29.143739] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:47:34.900654] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:47:34.900795] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:47:34.900979] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:47:34.901029] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:47:34.902009] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:47:34.902388] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:47:34.903563] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:47:36.126514] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:47:36.126597] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:47:36.126805] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:47:36.126829] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:47:36.126887] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:47:36.126934] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:47:36.126941] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:47:36.127105] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:47:36.128526] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:48:48.369664] [INFO ] ========== Server Start ==========
+[2026-02-22 06:48:48.369675] [INFO ] Log mode: ASYNC
+[2026-02-22 06:48:48.369735] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 06:48:48.369739] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 06:48:48.369741] [INFO ] Access control enabled: NO
+[2026-02-22 06:48:48.369753] [INFO ] Socket created successfully, fd=4
+[2026-02-22 06:48:48.372324] [INFO ] Thread pool created successfully
+[2026-02-22 06:48:48.372379] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 06:49:03.622411] [INFO ] ========== Server Start ==========
+[2026-02-22 06:49:03.622422] [INFO ] Log mode: ASYNC
+[2026-02-22 06:49:03.622484] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 06:49:03.622493] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 06:49:03.622497] [INFO ] Access control enabled: NO
+[2026-02-22 06:49:03.622517] [INFO ] Socket created successfully, fd=4
+[2026-02-22 06:49:03.625701] [INFO ] Thread pool created successfully
+[2026-02-22 06:49:03.625766] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 06:49:33.077552] [INFO ] ========== Server Start ==========
+[2026-02-22 06:49:33.077569] [INFO ] Log mode: ASYNC
+[2026-02-22 06:49:33.077680] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 06:49:33.077688] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 06:49:33.077692] [INFO ] Access control enabled: NO
+[2026-02-22 06:49:33.077712] [INFO ] Socket created successfully, fd=4
+[2026-02-22 06:49:33.081215] [INFO ] Thread pool created successfully
+[2026-02-22 06:49:33.081259] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 06:50:22.951317] [INFO ] ========== Server Start ==========
+[2026-02-22 06:50:22.951326] [INFO ] Log mode: ASYNC
+[2026-02-22 06:50:22.951436] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 06:50:22.951444] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 06:50:22.951448] [INFO ] Access control enabled: NO
+[2026-02-22 06:50:22.951470] [INFO ] Socket created successfully, fd=4
+[2026-02-22 06:50:22.954965] [INFO ] Thread pool created successfully
+[2026-02-22 06:50:22.955020] [INFO ] Socket bound to port 8080
+[2026-02-22 06:50:22.955080] [INFO ] Server is listening on port 8080
+[2026-02-22 06:50:22.955092] [INFO ] Epoll created successfully, epfd=5
+[2026-02-22 06:50:28.230551] [INFO ] New connection from 192.168.3.71:50156, connfd=6
+[2026-02-22 06:50:28.230737] [INFO ] New connection from 192.168.3.71:55504, connfd=7
+[2026-02-22 06:50:28.230869] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:50:28.230940] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:50:28.231326] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:50:28.231363] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:50:28.231394] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:50:28.231424] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:50:28.231466] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:50:28.231750] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:50:28.231840] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:50:28.349061] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:50:28.349137] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:50:28.349370] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:50:28.349391] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:50:28.349512] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:50:28.349548] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/favicon.ico, size=16958 bytes
+[2026-02-22 06:50:28.349553] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:50:28.349608] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:50:28.350577] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:50:35.152045] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:50:35.152158] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:50:35.152324] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:50:35.152341] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:50:35.155401] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:50:35.155636] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:50:35.156150] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:51:54.760105] [INFO ] Connection closed, sockfd=7
+[2026-02-22 06:52:28.359327] [INFO ] ========== Server Start ==========
+[2026-02-22 06:52:28.359354] [INFO ] Log mode: ASYNC
+[2026-02-22 06:52:28.359428] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 06:52:28.359436] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 06:52:28.359441] [INFO ] Access control enabled: NO
+[2026-02-22 06:52:28.359459] [INFO ] Socket created successfully, fd=4
+[2026-02-22 06:52:28.364176] [INFO ] Thread pool created successfully
+[2026-02-22 06:52:28.364273] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 06:52:54.707039] [INFO ] ========== Server Start ==========
+[2026-02-22 06:52:54.707054] [INFO ] Log mode: ASYNC
+[2026-02-22 06:52:54.707164] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 06:52:54.707171] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 06:52:54.707174] [INFO ] Access control enabled: NO
+[2026-02-22 06:52:54.707186] [INFO ] Socket created successfully, fd=4
+[2026-02-22 06:52:54.711791] [INFO ] Thread pool created successfully
+[2026-02-22 06:52:54.712003] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 06:54:08.067942] [INFO ] ========== Server Start ==========
+[2026-02-22 06:54:08.067965] [INFO ] Log mode: ASYNC
+[2026-02-22 06:54:08.068041] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 06:54:08.068049] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 06:54:08.068052] [INFO ] Access control enabled: NO
+[2026-02-22 06:54:08.068069] [INFO ] Socket created successfully, fd=4
+[2026-02-22 06:54:08.070675] [INFO ] Thread pool created successfully
+[2026-02-22 06:54:08.070726] [INFO ] Socket bound to port 8080
+[2026-02-22 06:54:08.070809] [INFO ] Server is listening on port 8080
+[2026-02-22 06:54:08.070824] [INFO ] Epoll created successfully, epfd=5
+[2026-02-22 06:54:13.929816] [INFO ] New connection from 192.168.3.71:54477, connfd=6
+[2026-02-22 06:54:13.929935] [INFO ] New connection from 192.168.3.71:56696, connfd=7
+[2026-02-22 06:54:13.931020] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:54:13.931267] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:54:13.931289] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:54:13.931822] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:54:13.934461] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:54:13.934786] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:54:13.935071] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:54:14.169598] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:54:14.169714] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:54:14.169872] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:54:14.169896] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-02-22 06:54:14.169917] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-02-22 06:54:14.169945] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/favicon.ico, size=16958 bytes
+[2026-02-22 06:54:14.169950] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:54:14.170181] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:54:14.170248] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:54:14.977233] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:54:14.977340] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:54:14.977526] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:54:14.977546] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:54:14.977565] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:54:14.977593] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:54:14.977597] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:54:14.977694] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:54:14.978167] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:54:20.606058] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:54:20.606262] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:54:20.606287] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:54:20.606627] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:54:20.607232] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:54:20.607335] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:54:20.607529] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:54:31.341151] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:54:31.341230] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:54:31.341331] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:54:31.341344] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:54:31.341368] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:54:31.341398] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:54:31.341402] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:54:31.341862] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:54:31.342788] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:54:35.949960] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:54:35.950040] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:54:35.950254] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:54:35.950290] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:54:35.951082] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:54:35.951144] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:54:35.951271] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:54:42.001472] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:54:42.001598] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:54:42.001893] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:54:42.001948] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:54:42.002104] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:54:42.002257] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:54:42.002281] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:54:42.002318] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:54:42.003094] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:56:22.247604] [INFO ] sockfd 6 closed
+[2026-02-22 06:56:22.247922] [INFO ] sockfd 7 closed
+[2026-02-22 06:57:08.156903] [INFO ] New connection from 192.168.3.71:56896, connfd=6
+[2026-02-22 06:57:08.157039] [INFO ] New connection from 192.168.3.71:53675, connfd=7
+[2026-02-22 06:57:08.157063] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:57:08.157146] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:57:08.157336] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:57:08.157438] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:57:08.158481] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:57:08.158616] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:57:08.158813] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:57:12.458727] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:57:12.459756] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 06:57:12.459804] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 06:57:12.461804] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:57:12.461980] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 06:57:12.462011] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 06:57:12.462016] [DEBUG] Processing request, result code: 5
+[2026-02-22 06:57:12.462843] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:57:12.463907] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:57:16.188739] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 06:57:16.188868] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 06:57:16.189725] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 06:57:16.189767] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 06:57:16.190798] [DEBUG] Processing request, result code: 8
+[2026-02-22 06:57:16.190874] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 06:57:16.191231] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 06:59:30.562488] [INFO ] ========== Server Start ==========
+[2026-02-22 06:59:30.562499] [INFO ] Log mode: ASYNC
+[2026-02-22 06:59:30.562689] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 06:59:30.562698] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 06:59:30.562701] [INFO ] Access control enabled: NO
+[2026-02-22 06:59:30.562713] [INFO ] Socket created successfully, fd=4
+[2026-02-22 06:59:30.565819] [INFO ] Thread pool created successfully
+[2026-02-22 06:59:30.565845] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 06:59:44.567505] [INFO ] ========== Server Start ==========
+[2026-02-22 06:59:44.567517] [INFO ] Log mode: ASYNC
+[2026-02-22 06:59:44.567628] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 06:59:44.567632] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 06:59:44.567634] [INFO ] Access control enabled: NO
+[2026-02-22 06:59:44.567658] [INFO ] Socket created successfully, fd=4
+[2026-02-22 06:59:44.572199] [INFO ] Thread pool created successfully
+[2026-02-22 06:59:44.572253] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 06:59:47.188645] [INFO ] ========== Server Start ==========
+[2026-02-22 06:59:47.188655] [INFO ] Log mode: ASYNC
+[2026-02-22 06:59:47.188712] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 06:59:47.188716] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 06:59:47.188717] [INFO ] Access control enabled: NO
+[2026-02-22 06:59:47.188730] [INFO ] Socket created successfully, fd=4
+[2026-02-22 06:59:47.191141] [INFO ] Thread pool created successfully
+[2026-02-22 06:59:47.191166] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 07:00:30.008226] [INFO ] ========== Server Start ==========
+[2026-02-22 07:00:30.008243] [INFO ] Log mode: ASYNC
+[2026-02-22 07:00:30.008311] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 07:00:30.008319] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 07:00:30.008321] [INFO ] Access control enabled: NO
+[2026-02-22 07:00:30.008333] [INFO ] Socket created successfully, fd=4
+[2026-02-22 07:00:30.012070] [INFO ] Thread pool created successfully
+[2026-02-22 07:00:30.012163] [INFO ] Socket bound to port 8080
+[2026-02-22 07:00:30.012265] [INFO ] Server is listening on port 8080
+[2026-02-22 07:00:30.012286] [INFO ] Epoll created successfully, epfd=5
+[2026-02-22 07:01:50.631650] [INFO ] New connection from 192.168.3.71:60155, connfd=6
+[2026-02-22 07:01:50.631773] [INFO ] New connection from 192.168.3.71:64434, connfd=7
+[2026-02-22 07:01:57.878086] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 07:01:57.878545] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 07:01:57.878711] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 07:01:57.878730] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 07:01:57.882767] [DEBUG] Processing request, result code: 8
+[2026-02-22 07:01:57.883044] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 07:01:57.883263] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 07:04:10.076759] [INFO ] ========== Server Start ==========
+[2026-02-22 07:04:10.076785] [INFO ] Log mode: ASYNC
+[2026-02-22 07:04:10.076893] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 07:04:10.076902] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 07:04:10.076905] [INFO ] Access control enabled: NO
+[2026-02-22 07:04:10.076918] [INFO ] Socket created successfully, fd=4
+[2026-02-22 07:04:10.079626] [INFO ] Thread pool created successfully
+[2026-02-22 07:04:10.079675] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 07:04:12.265756] [INFO ] ========== Server Start ==========
+[2026-02-22 07:04:12.265775] [INFO ] Log mode: ASYNC
+[2026-02-22 07:04:12.265845] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 07:04:12.265853] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 07:04:12.265857] [INFO ] Access control enabled: NO
+[2026-02-22 07:04:12.265874] [INFO ] Socket created successfully, fd=4
+[2026-02-22 07:04:12.272521] [INFO ] Thread pool created successfully
+[2026-02-22 07:04:12.272588] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 07:04:30.553693] [INFO ] ========== Server Start ==========
+[2026-02-22 07:04:30.553706] [INFO ] Log mode: ASYNC
+[2026-02-22 07:04:30.553760] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 07:04:30.553764] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 07:04:30.553766] [INFO ] Access control enabled: NO
+[2026-02-22 07:04:30.553777] [INFO ] Socket created successfully, fd=4
+[2026-02-22 07:04:30.558103] [INFO ] Thread pool created successfully
+[2026-02-22 07:04:30.558177] [INFO ] Socket bound to port 8080
+[2026-02-22 07:04:30.558282] [INFO ] Server is listening on port 8080
+[2026-02-22 07:04:30.558299] [INFO ] Epoll created successfully, epfd=5
+[2026-02-22 07:04:43.166345] [INFO ] New connection from 192.168.3.71:50908, connfd=6
+[2026-02-22 07:04:43.166650] [INFO ] New connection from 192.168.3.71:57656, connfd=7
+[2026-02-22 07:04:43.166739] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 07:04:43.166838] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 07:04:43.168768] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 07:04:43.168827] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 07:04:43.172816] [DEBUG] Processing request, result code: 8
+[2026-02-22 07:04:43.172967] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 07:04:43.173492] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 07:06:39.405415] [INFO ] ========== Server Start ==========
+[2026-02-22 07:06:39.405432] [INFO ] Log mode: ASYNC
+[2026-02-22 07:06:39.405527] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 07:06:39.405536] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 07:06:39.405540] [INFO ] Access control enabled: NO
+[2026-02-22 07:06:39.405555] [INFO ] Socket created successfully, fd=4
+[2026-02-22 07:06:39.409059] [INFO ] Thread pool created successfully
+[2026-02-22 07:06:39.409098] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 07:06:41.537623] [INFO ] ========== Server Start ==========
+[2026-02-22 07:06:41.537634] [INFO ] Log mode: ASYNC
+[2026-02-22 07:06:41.537692] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 07:06:41.537695] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 07:06:41.537697] [INFO ] Access control enabled: NO
+[2026-02-22 07:06:41.537709] [INFO ] Socket created successfully, fd=4
+[2026-02-22 07:06:41.541008] [INFO ] Thread pool created successfully
+[2026-02-22 07:06:41.541059] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 07:06:44.577632] [INFO ] ========== Server Start ==========
+[2026-02-22 07:06:44.577644] [INFO ] Log mode: ASYNC
+[2026-02-22 07:06:44.577711] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 07:06:44.577716] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 07:06:44.577718] [INFO ] Access control enabled: NO
+[2026-02-22 07:06:44.577731] [INFO ] Socket created successfully, fd=4
+[2026-02-22 07:06:44.580465] [INFO ] Thread pool created successfully
+[2026-02-22 07:06:44.580496] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 07:07:04.658296] [INFO ] ========== Server Start ==========
+[2026-02-22 07:07:04.658314] [INFO ] Log mode: ASYNC
+[2026-02-22 07:07:04.658397] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 07:07:04.658401] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 07:07:04.658403] [INFO ] Access control enabled: NO
+[2026-02-22 07:07:04.658417] [INFO ] Socket created successfully, fd=4
+[2026-02-22 07:07:04.661796] [INFO ] Thread pool created successfully
+[2026-02-22 07:07:04.661831] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 07:07:18.983219] [INFO ] ========== Server Start ==========
+[2026-02-22 07:07:18.983244] [INFO ] Log mode: ASYNC
+[2026-02-22 07:07:18.983344] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 07:07:18.983352] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 07:07:18.983356] [INFO ] Access control enabled: NO
+[2026-02-22 07:07:18.983374] [INFO ] Socket created successfully, fd=4
+[2026-02-22 07:07:18.987322] [INFO ] Thread pool created successfully
+[2026-02-22 07:07:18.987373] [ERROR] Failed to bind socket to port 8080
+[2026-02-22 07:07:34.443781] [INFO ] ========== Server Start ==========
+[2026-02-22 07:07:34.443807] [INFO ] Log mode: ASYNC
+[2026-02-22 07:07:34.443901] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 07:07:34.443910] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 07:07:34.443914] [INFO ] Access control enabled: NO
+[2026-02-22 07:07:34.443931] [INFO ] Socket created successfully, fd=4
+[2026-02-22 07:07:34.447179] [INFO ] Thread pool created successfully
+[2026-02-22 07:07:34.447253] [INFO ] Socket bound to port 8080
+[2026-02-22 07:07:34.447310] [INFO ] Server is listening on port 8080
+[2026-02-22 07:07:34.447320] [INFO ] Epoll created successfully, epfd=5
+[2026-02-22 07:08:43.843711] [INFO ] New connection from 192.168.3.71:65370, connfd=6
+[2026-02-22 07:08:43.938298] [INFO ] New connection from 192.168.3.71:60570, connfd=7
+[2026-02-22 07:08:43.939747] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 07:08:43.939833] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 07:08:43.940432] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 07:08:43.940473] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 07:08:43.940516] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 07:08:43.940554] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 07:08:43.940561] [DEBUG] Processing request, result code: 5
+[2026-02-22 07:08:43.940785] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 07:08:43.941829] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 07:08:47.622557] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 07:08:47.622648] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 07:08:47.622850] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 07:08:47.622871] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 07:08:47.626102] [DEBUG] Processing request, result code: 8
+[2026-02-22 07:08:47.626606] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 07:08:47.626748] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 07:10:27.911652] [INFO ] sockfd 6 closed
+[2026-02-22 07:10:27.946425] [INFO ] sockfd 7 closed
+[2026-02-22 07:29:37.526174] [INFO ] ========== Server Start ==========
+[2026-02-22 07:29:37.526185] [INFO ] Log mode: ASYNC
+[2026-02-22 07:29:37.526247] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-22 07:29:37.526252] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-22 07:29:37.526254] [INFO ] Access control enabled: NO
+[2026-02-22 07:29:37.526267] [INFO ] Socket created successfully, fd=4
+[2026-02-22 07:29:37.529235] [INFO ] Thread pool created successfully
+[2026-02-22 07:29:37.529265] [INFO ] Socket bound to port 8080
+[2026-02-22 07:29:37.529356] [INFO ] Server is listening on port 8080
+[2026-02-22 07:29:37.529377] [INFO ] Epoll created successfully, epfd=5
+[2026-02-22 07:29:42.010467] [INFO ] New connection from 192.168.3.71:49496, connfd=6
+[2026-02-22 07:29:42.080356] [INFO ] New connection from 192.168.3.71:53524, connfd=7
+[2026-02-22 07:29:42.080472] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 07:29:42.080523] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 07:29:42.080663] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-02-22 07:29:42.080679] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-02-22 07:29:42.080703] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-02-22 07:29:42.080730] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=7532 bytes
+[2026-02-22 07:29:42.080812] [DEBUG] Processing request, result code: 5
+[2026-02-22 07:29:42.080943] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 07:29:42.081035] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-22 07:29:46.437558] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-22 07:29:46.437670] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-22 07:29:46.438123] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-02-22 07:29:46.438164] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-02-22 07:29:46.458109] [INFO ] MySQL connection established successfully
+[2026-02-22 07:29:46.470352] [DEBUG] Processing request, result code: 8
+[2026-02-22 07:29:46.470607] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-22 07:29:46.470839] [DEBUG] Response sent successfully, sockfd=6
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

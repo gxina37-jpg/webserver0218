@@ -1,0 +1,1257 @@
+[2026-03-19 18:51:41.483760] [INFO ] ========== Server Start ==========
+[2026-03-19 18:51:41.483789] [INFO ] Log mode: ASYNC
+[2026-03-19 18:51:41.483924] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-03-19 18:51:41.483933] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-03-19 18:51:41.483937] [INFO ] Access control enabled: NO
+[2026-03-19 18:51:41.483955] [INFO ] Socket created successfully, fd=4
+[2026-03-19 18:51:41.491315] [INFO ] Thread pool created successfully
+[2026-03-19 18:51:41.491369] [INFO ] Socket bound to port 8080
+[2026-03-19 18:51:41.491442] [INFO ] Server is listening on port 8080
+[2026-03-19 18:51:41.491461] [INFO ] Epoll created successfully, epfd=5
+[2026-03-19 18:52:09.595678] [INFO ] New connection from 192.168.174.1:63328, connfd=6
+[2026-03-19 18:52:09.595850] [INFO ] New connection from 192.168.174.1:58664, connfd=7
+[2026-03-19 18:52:09.595923] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:52:09.595975] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:52:09.597765] [DEBUG] Parsing request line: GET / HTTP/1.1
+[2026-03-19 18:52:09.598504] [INFO ] HTTP Request: GET / HTTP/1.1
+[2026-03-19 18:52:09.598740] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:09.598806] [WARN ] Request is a directory: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:09.598816] [DEBUG] Processing request, result code: 2
+[2026-03-19 18:52:09.598821] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:10.648706] [INFO ] New connection from 192.168.174.1:55030, connfd=6
+[2026-03-19 18:52:10.649079] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 18:52:10.649130] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 18:52:10.650876] [DEBUG] Parsing request line: GET / HTTP/1.1
+[2026-03-19 18:52:10.650928] [INFO ] HTTP Request: GET / HTTP/1.1
+[2026-03-19 18:52:10.650955] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:10.650967] [WARN ] Request is a directory: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:10.650970] [DEBUG] Processing request, result code: 2
+[2026-03-19 18:52:10.650974] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:10.652013] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:52:10.652176] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:52:10.652489] [DEBUG] Parsing request line: GET / HTTP/1.1
+[2026-03-19 18:52:10.652611] [INFO ] HTTP Request: GET / HTTP/1.1
+[2026-03-19 18:52:10.652641] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:10.652651] [WARN ] Request is a directory: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:10.652654] [DEBUG] Processing request, result code: 2
+[2026-03-19 18:52:10.652658] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:10.654549] [INFO ] New connection from 192.168.174.1:49438, connfd=6
+[2026-03-19 18:52:10.654680] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:52:10.654762] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:52:10.655303] [DEBUG] Parsing request line: GET / HTTP/1.1
+[2026-03-19 18:52:10.655364] [INFO ] HTTP Request: GET / HTTP/1.1
+[2026-03-19 18:52:10.655392] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:10.655404] [WARN ] Request is a directory: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:10.655407] [DEBUG] Processing request, result code: 2
+[2026-03-19 18:52:10.655411] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:15.696244] [INFO ] New connection from 192.168.174.1:52668, connfd=6
+[2026-03-19 18:52:15.696386] [INFO ] New connection from 192.168.174.1:65447, connfd=7
+[2026-03-19 18:52:15.698578] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:52:15.698673] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:52:15.699039] [DEBUG] Parsing request line: GET / HTTP/1.1
+[2026-03-19 18:52:15.699136] [INFO ] HTTP Request: GET / HTTP/1.1
+[2026-03-19 18:52:15.699170] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:15.699184] [WARN ] Request is a directory: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:15.699186] [DEBUG] Processing request, result code: 2
+[2026-03-19 18:52:15.699190] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:15.699777] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 18:52:15.699862] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 18:52:15.699931] [DEBUG] Parsing request line: GET / HTTP/1.1
+[2026-03-19 18:52:15.699942] [INFO ] HTTP Request: GET / HTTP/1.1
+[2026-03-19 18:52:15.699960] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:15.699968] [WARN ] Request is a directory: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:15.699971] [DEBUG] Processing request, result code: 2
+[2026-03-19 18:52:15.699975] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:15.701223] [INFO ] New connection from 192.168.174.1:53737, connfd=6
+[2026-03-19 18:52:15.701605] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:52:15.701777] [DEBUG] Parsing request line: GET / HTTP/1.1
+[2026-03-19 18:52:15.702054] [INFO ] HTTP Request: GET / HTTP/1.1
+[2026-03-19 18:52:15.702119] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:15.702132] [WARN ] Request is a directory: /home/nowcoder/Linux/server_with_features/resources/
+[2026-03-19 18:52:15.702135] [DEBUG] Processing request, result code: 2
+[2026-03-19 18:52:15.702139] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:15.702605] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:52:21.407827] [INFO ] New connection from 192.168.174.1:60975, connfd=6
+[2026-03-19 18:52:21.408003] [INFO ] New connection from 192.168.174.1:54368, connfd=7
+[2026-03-19 18:52:21.408025] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:52:21.408309] [DEBUG] Parsing request line: GET /users HTTP/1.1
+[2026-03-19 18:52:21.408363] [INFO ] HTTP Request: GET /users HTTP/1.1
+[2026-03-19 18:52:21.408389] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:21.408407] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:21.408411] [DEBUG] Processing request, result code: 3
+[2026-03-19 18:52:21.408415] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:21.408673] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:52:21.409481] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 18:52:21.409572] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 18:52:21.410237] [DEBUG] Parsing request line: GET /users HTTP/1.1
+[2026-03-19 18:52:21.410293] [INFO ] HTTP Request: GET /users HTTP/1.1
+[2026-03-19 18:52:21.410321] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:21.410371] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:21.410379] [DEBUG] Processing request, result code: 3
+[2026-03-19 18:52:21.410384] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:21.413955] [INFO ] New connection from 192.168.174.1:51441, connfd=6
+[2026-03-19 18:52:21.414108] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:52:21.414171] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:52:21.414454] [DEBUG] Parsing request line: GET /users HTTP/1.1
+[2026-03-19 18:52:21.414510] [INFO ] HTTP Request: GET /users HTTP/1.1
+[2026-03-19 18:52:21.414664] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:21.414684] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:21.414687] [DEBUG] Processing request, result code: 3
+[2026-03-19 18:52:21.414691] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:22.461630] [INFO ] New connection from 192.168.174.1:59328, connfd=6
+[2026-03-19 18:52:22.461762] [INFO ] New connection from 192.168.174.1:65021, connfd=7
+[2026-03-19 18:52:22.463533] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:52:22.463775] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:52:22.463965] [DEBUG] Parsing request line: GET /users HTTP/1.1
+[2026-03-19 18:52:22.463977] [INFO ] HTTP Request: GET /users HTTP/1.1
+[2026-03-19 18:52:22.463998] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:22.464010] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:22.464013] [DEBUG] Processing request, result code: 3
+[2026-03-19 18:52:22.464016] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:22.467458] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 18:52:22.467599] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 18:52:22.467860] [DEBUG] Parsing request line: GET /users HTTP/1.1
+[2026-03-19 18:52:22.467875] [INFO ] HTTP Request: GET /users HTTP/1.1
+[2026-03-19 18:52:22.467895] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:22.467906] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:22.467908] [DEBUG] Processing request, result code: 3
+[2026-03-19 18:52:22.467912] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:22.470726] [INFO ] New connection from 192.168.174.1:51848, connfd=6
+[2026-03-19 18:52:22.470812] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:52:22.470869] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:52:22.471047] [DEBUG] Parsing request line: GET /users HTTP/1.1
+[2026-03-19 18:52:22.471067] [INFO ] HTTP Request: GET /users HTTP/1.1
+[2026-03-19 18:52:22.471118] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:22.471135] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:22.471137] [DEBUG] Processing request, result code: 3
+[2026-03-19 18:52:22.471141] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:27.499004] [INFO ] New connection from 192.168.174.1:49906, connfd=6
+[2026-03-19 18:52:27.499126] [INFO ] New connection from 192.168.174.1:50904, connfd=7
+[2026-03-19 18:52:27.504131] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:52:27.504187] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:52:27.504491] [DEBUG] Parsing request line: GET /users HTTP/1.1
+[2026-03-19 18:52:27.504528] [INFO ] HTTP Request: GET /users HTTP/1.1
+[2026-03-19 18:52:27.504559] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:27.504573] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:27.504576] [DEBUG] Processing request, result code: 3
+[2026-03-19 18:52:27.504579] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:27.505604] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 18:52:27.505637] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 18:52:27.505787] [DEBUG] Parsing request line: GET /users HTTP/1.1
+[2026-03-19 18:52:27.505800] [INFO ] HTTP Request: GET /users HTTP/1.1
+[2026-03-19 18:52:27.505819] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:27.505825] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:27.505901] [DEBUG] Processing request, result code: 3
+[2026-03-19 18:52:27.505907] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:27.511133] [INFO ] New connection from 192.168.174.1:53311, connfd=6
+[2026-03-19 18:52:27.511303] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:52:27.511323] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:52:27.511882] [DEBUG] Parsing request line: GET /users HTTP/1.1
+[2026-03-19 18:52:27.511931] [INFO ] HTTP Request: GET /users HTTP/1.1
+[2026-03-19 18:52:27.511987] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:27.512003] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:27.512006] [DEBUG] Processing request, result code: 3
+[2026-03-19 18:52:27.512010] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:57.556831] [INFO ] New connection from 192.168.174.1:54703, connfd=6
+[2026-03-19 18:52:57.556951] [INFO ] New connection from 192.168.174.1:55671, connfd=7
+[2026-03-19 18:52:57.563668] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:52:57.563782] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:52:57.564311] [DEBUG] Parsing request line: GET /users HTTP/1.1
+[2026-03-19 18:52:57.564361] [INFO ] HTTP Request: GET /users HTTP/1.1
+[2026-03-19 18:52:57.564388] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:57.564403] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:57.564406] [DEBUG] Processing request, result code: 3
+[2026-03-19 18:52:57.564410] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:57.566413] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 18:52:57.566547] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 18:52:57.566668] [DEBUG] Parsing request line: GET /users HTTP/1.1
+[2026-03-19 18:52:57.566690] [INFO ] HTTP Request: GET /users HTTP/1.1
+[2026-03-19 18:52:57.566709] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:57.566719] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:57.566722] [DEBUG] Processing request, result code: 3
+[2026-03-19 18:52:57.566726] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:52:57.568873] [INFO ] New connection from 192.168.174.1:62842, connfd=6
+[2026-03-19 18:52:57.570078] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:52:57.570181] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:52:57.570664] [DEBUG] Parsing request line: GET /users HTTP/1.1
+[2026-03-19 18:52:57.570707] [INFO ] HTTP Request: GET /users HTTP/1.1
+[2026-03-19 18:52:57.570735] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:57.570750] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/users
+[2026-03-19 18:52:57.570753] [DEBUG] Processing request, result code: 3
+[2026-03-19 18:52:57.570757] [ERROR] Response generation failed, closing connection
+[2026-03-19 18:53:03.437282] [INFO ] New connection from 192.168.174.1:63136, connfd=6
+[2026-03-19 18:53:03.437384] [INFO ] New connection from 192.168.174.1:50060, connfd=7
+[2026-03-19 18:53:03.437398] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:53:03.437488] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:53:03.437696] [DEBUG] Parsing request line: GET /about.html HTTP/1.1
+[2026-03-19 18:53:03.437711] [INFO ] HTTP Request: GET /about.html HTTP/1.1
+[2026-03-19 18:53:03.437730] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/about.html
+[2026-03-19 18:53:03.437768] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/about.html, size=158 bytes
+[2026-03-19 18:53:03.437774] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:53:03.437873] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:53:03.439037] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:53:03.757660] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:53:03.758507] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:53:03.758672] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-03-19 18:53:03.758692] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-03-19 18:53:03.758722] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-03-19 18:53:03.758772] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/favicon.ico, size=16958 bytes
+[2026-03-19 18:53:03.758778] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:53:03.758856] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:53:03.760223] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:53:07.258252] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:53:07.258363] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:53:07.258790] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-03-19 18:53:07.258813] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-03-19 18:53:07.258849] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-03-19 18:53:07.259009] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=345 bytes
+[2026-03-19 18:53:07.259025] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:53:07.259177] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:53:07.261846] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:53:12.470057] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:53:12.470217] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:53:12.471240] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-03-19 18:53:12.471286] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-03-19 18:53:12.501418] [INFO ] MySQL connection established successfully
+[2026-03-19 18:53:12.544113] [DEBUG] Processing request, result code: 8
+[2026-03-19 18:53:12.544796] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:53:12.545042] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:53:12.941538] [INFO ] Connection closed, sockfd=7
+[2026-03-19 18:53:12.941967] [INFO ] Connection closed, sockfd=6
+[2026-03-19 18:53:13.618678] [INFO ] New connection from 192.168.174.1:49552, connfd=6
+[2026-03-19 18:53:13.716164] [INFO ] New connection from 192.168.174.1:55925, connfd=7
+[2026-03-19 18:53:13.718776] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:53:13.718947] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:53:13.719666] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-03-19 18:53:13.719721] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-03-19 18:53:13.719745] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-03-19 18:53:13.719973] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=345 bytes
+[2026-03-19 18:53:13.720021] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:53:13.721196] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:53:13.721489] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:53:16.105156] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:53:16.105242] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:53:16.105347] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-03-19 18:53:16.105361] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-03-19 18:53:16.113967] [INFO ] MySQL connection established successfully
+[2026-03-19 18:53:16.114914] [DEBUG] Processing request, result code: 8
+[2026-03-19 18:53:16.115015] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:53:16.115211] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:53:17.349621] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:53:17.349720] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:53:17.349823] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-03-19 18:53:17.349845] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-03-19 18:53:17.350000] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-03-19 18:53:17.350080] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=345 bytes
+[2026-03-19 18:53:17.350088] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:53:17.350257] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:53:17.350713] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:53:22.882103] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:53:22.882281] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:53:22.882567] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-03-19 18:53:22.882601] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-03-19 18:53:22.889538] [INFO ] MySQL connection established successfully
+[2026-03-19 18:53:22.890979] [DEBUG] Processing request, result code: 8
+[2026-03-19 18:53:22.891226] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:53:22.891443] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:53:27.146817] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:53:27.146991] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:53:27.147151] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-03-19 18:53:27.147225] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-03-19 18:53:27.147273] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-03-19 18:53:27.147324] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=345 bytes
+[2026-03-19 18:53:27.147333] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:53:27.147940] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:53:27.148109] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:53:49.189727] [INFO ] sockfd 6 closed
+[2026-03-19 18:53:50.193602] [INFO ] sockfd 7 closed
+[2026-03-19 18:53:50.200660] [INFO ] sockfd 6 closed
+[2026-03-19 18:53:50.203917] [INFO ] sockfd 6 closed
+[2026-03-19 18:53:53.611076] [INFO ] New connection from 192.168.174.1:52616, connfd=6
+[2026-03-19 18:53:53.611180] [INFO ] New connection from 192.168.174.1:54813, connfd=7
+[2026-03-19 18:53:53.611193] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:53:53.611207] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:53:53.611349] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-03-19 18:53:53.611367] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-03-19 18:53:53.611386] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/index.html
+[2026-03-19 18:53:53.611470] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/index.html, size=16634 bytes
+[2026-03-19 18:53:53.611510] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:53:53.611708] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:53:53.616749] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:53:55.624141] [INFO ] sockfd 6 closed
+[2026-03-19 18:53:55.624831] [INFO ] sockfd 7 closed
+[2026-03-19 18:53:55.624993] [INFO ] sockfd 6 closed
+[2026-03-19 18:54:01.636651] [INFO ] sockfd 6 closed
+[2026-03-19 18:54:01.636710] [INFO ] sockfd 7 closed
+[2026-03-19 18:54:01.636721] [INFO ] sockfd 6 closed
+[2026-03-19 18:54:02.640746] [INFO ] sockfd 6 closed
+[2026-03-19 18:54:02.640943] [INFO ] sockfd 7 closed
+[2026-03-19 18:54:02.641300] [INFO ] sockfd 6 closed
+[2026-03-19 18:54:07.650284] [INFO ] sockfd 6 closed
+[2026-03-19 18:54:07.650346] [INFO ] sockfd 7 closed
+[2026-03-19 18:54:07.650431] [INFO ] sockfd 6 closed
+[2026-03-19 18:54:37.705410] [INFO ] sockfd 6 closed
+[2026-03-19 18:54:37.705489] [INFO ] sockfd 7 closed
+[2026-03-19 18:54:37.705493] [INFO ] sockfd 6 closed
+[2026-03-19 18:55:07.800378] [INFO ] sockfd 6 closed
+[2026-03-19 18:55:07.800949] [INFO ] sockfd 7 closed
+[2026-03-19 18:55:33.864625] [INFO ] sockfd 6 closed
+[2026-03-19 18:55:33.864682] [INFO ] sockfd 7 closed
+[2026-03-19 18:55:53.747596] [INFO ] New connection from 192.168.174.1:57273, connfd=6
+[2026-03-19 18:55:53.747733] [INFO ] New connection from 192.168.174.1:55250, connfd=7
+[2026-03-19 18:55:53.751200] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:55:53.751327] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:55:53.751491] [DEBUG] Parsing request line: GET /index.html HTTP/1.1
+[2026-03-19 18:55:53.751509] [INFO ] HTTP Request: GET /index.html HTTP/1.1
+[2026-03-19 18:55:53.751529] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/index.html
+[2026-03-19 18:55:53.751565] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/index.html, size=16634 bytes
+[2026-03-19 18:55:53.751570] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:55:53.751672] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:55:53.752967] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:02.222533] [INFO ] Connection closed, sockfd=7
+[2026-03-19 18:56:02.222837] [INFO ] Connection closed, sockfd=6
+[2026-03-19 18:56:03.655556] [INFO ] New connection from 192.168.174.1:51750, connfd=6
+[2026-03-19 18:56:03.655637] [INFO ] New connection from 192.168.174.1:50230, connfd=7
+[2026-03-19 18:56:03.655846] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:56:03.655900] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:56:03.656047] [DEBUG] Parsing request line: GET /video_test.html HTTP/1.1
+[2026-03-19 18:56:03.656077] [INFO ] HTTP Request: GET /video_test.html HTTP/1.1
+[2026-03-19 18:56:03.656097] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/video_test.html
+[2026-03-19 18:56:03.656128] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/video_test.html, size=930 bytes
+[2026-03-19 18:56:03.656133] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:56:03.656146] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:03.656352] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:03.711386] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:56:03.711551] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:56:03.711649] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:56:03.711770] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:56:03.711839] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-03-19 18:56:03.711896] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=9251371 bytes
+[2026-03-19 18:56:03.711937] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:56:03.712082] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:03.716597] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:03.718282] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:03.733237] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:03.742258] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:03.746620] [WARN ] Write failed, closing connection, sockfd=6
+[2026-03-19 18:56:03.753312] [INFO ] Connection closed, sockfd=7
+[2026-03-19 18:56:03.756647] [INFO ] New connection from 192.168.174.1:57768, connfd=6
+[2026-03-19 18:56:03.756761] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:56:03.756946] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:56:03.757116] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:56:03.757158] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:56:03.757181] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-03-19 18:56:03.757210] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=9251371 bytes
+[2026-03-19 18:56:03.757214] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:56:03.757318] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:03.762045] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:06.255511] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:56:06.255636] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:56:06.255874] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-03-19 18:56:06.255925] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-03-19 18:56:06.255953] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-03-19 18:56:06.255985] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/favicon.ico, size=16958 bytes
+[2026-03-19 18:56:06.255989] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:56:06.256215] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:06.256791] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:06.503886] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:56:06.504087] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:56:06.504103] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:56:06.504140] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-03-19 18:56:06.504191] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=9251371 bytes
+[2026-03-19 18:56:06.504199] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:56:06.504224] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:56:06.504244] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:06.506185] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:06.511211] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:06.512051] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:06.516753] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:06.517647] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:06.521374] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:06.522051] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:06.526026] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:06.526566] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:06.532907] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:06.572101] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:06.579804] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:06.617691] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:06.625952] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:06.656157] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:06.663202] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:06.679127] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:06.689918] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:06.712984] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:06.721290] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:06.783355] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:08.200231] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:08.288372] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:09.218754] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:09.225076] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:09.232090] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:56:09.233875] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:56:47.596967] [INFO ] Connection closed, sockfd=6
+[2026-03-19 18:59:04.213048] [INFO ] New connection from 192.168.174.1:54863, connfd=6
+[2026-03-19 18:59:04.213134] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:59:04.213152] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:59:04.213215] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:59:04.213223] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:59:04.213240] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-03-19 18:59:04.213274] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=9251371 bytes
+[2026-03-19 18:59:04.213278] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:59:04.213324] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.213957] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.215647] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.217026] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.219813] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.220008] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.223290] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.223940] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.226855] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.227004] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.229569] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.229807] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.233379] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.234102] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.238291] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.238593] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.242823] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.243892] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.249716] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.250446] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.256142] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.259299] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.262587] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.264434] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.271263] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.272715] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.280027] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.280380] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.292053] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.292560] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.308022] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.311264] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.319411] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.320013] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.328167] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.328712] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.336346] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.340482] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.345971] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.346424] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.356036] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.356455] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.365207] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.367867] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.373891] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.374594] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.383271] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.393563] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.405297] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.410989] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:04.417574] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:04.417795] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:07.866584] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:07.871333] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.680586] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:59:09.680976] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:59:09.681159] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:59:09.681174] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:59:09.681323] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-03-19 18:59:09.681374] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=9251371 bytes
+[2026-03-19 18:59:09.681380] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:59:09.681663] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.682663] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.686232] [INFO ] Connection closed, sockfd=6
+[2026-03-19 18:59:09.754090] [INFO ] New connection from 192.168.174.1:63510, connfd=6
+[2026-03-19 18:59:09.754244] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:59:09.754285] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:59:09.754330] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:59:09.754400] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-03-19 18:59:09.754441] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=9251371 bytes
+[2026-03-19 18:59:09.754482] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:59:09.754504] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:59:09.754526] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.755505] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.760262] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.765020] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.768990] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.769153] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.775703] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.776233] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.776286] [INFO ] Connection closed, sockfd=6
+[2026-03-19 18:59:09.813900] [INFO ] New connection from 192.168.174.1:51915, connfd=6
+[2026-03-19 18:59:09.814035] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:59:09.814085] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:59:09.814178] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:59:09.814189] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:59:09.814207] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-03-19 18:59:09.814242] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=9251371 bytes
+[2026-03-19 18:59:09.814246] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:59:09.814833] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.815692] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.817466] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.818153] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.822557] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.822776] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.829599] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.833588] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.835994] [INFO ] Connection closed, sockfd=6
+[2026-03-19 18:59:09.905270] [INFO ] New connection from 192.168.174.1:63657, connfd=6
+[2026-03-19 18:59:09.905400] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 18:59:09.905629] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 18:59:09.905986] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:59:09.906034] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-03-19 18:59:09.906063] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-03-19 18:59:09.906094] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=9251371 bytes
+[2026-03-19 18:59:09.906098] [DEBUG] Processing request, result code: 5
+[2026-03-19 18:59:09.906267] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.907596] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.910245] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.910639] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.913133] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.913607] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.916409] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.916584] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.920887] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 18:59:09.921035] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 18:59:09.923223] [INFO ] Connection closed, sockfd=6
+[2026-03-19 23:32:05.837809] [INFO ] New connection from 192.168.174.1:57245, connfd=6
+[2026-03-19 23:32:05.839777] [INFO ] New connection from 192.168.174.1:63945, connfd=7
+[2026-03-19 23:32:05.839834] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:32:05.840038] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:32:05.840377] [DEBUG] Parsing request line: GET /video_test.html HTTP/1.1
+[2026-03-19 23:32:05.840476] [INFO ] HTTP Request: GET /video_test.html HTTP/1.1
+[2026-03-19 23:32:05.840499] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/video_test.html
+[2026-03-19 23:32:05.840558] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/video_test.html, size=930 bytes
+[2026-03-19 23:32:05.840566] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:32:05.840852] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:32:05.845181] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:32:54.963311] [INFO ] ========== Server Start ==========
+[2026-03-19 23:32:54.963325] [INFO ] Log mode: ASYNC
+[2026-03-19 23:32:54.963441] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-03-19 23:32:54.963448] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-03-19 23:32:54.963451] [INFO ] Access control enabled: NO
+[2026-03-19 23:32:54.963470] [INFO ] Socket created successfully, fd=4
+[2026-03-19 23:32:54.967124] [INFO ] Thread pool created successfully
+[2026-03-19 23:32:54.967190] [ERROR] Failed to bind socket to port 8080
+[2026-03-19 23:33:02.503636] [INFO ] ========== Server Start ==========
+[2026-03-19 23:33:02.503651] [INFO ] Log mode: ASYNC
+[2026-03-19 23:33:02.503707] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-03-19 23:33:02.503711] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-03-19 23:33:02.503713] [INFO ] Access control enabled: NO
+[2026-03-19 23:33:02.503725] [INFO ] Socket created successfully, fd=4
+[2026-03-19 23:33:02.508471] [INFO ] Thread pool created successfully
+[2026-03-19 23:33:02.508659] [ERROR] Failed to bind socket to port 8080
+[2026-03-19 23:33:17.808721] [INFO ] ========== Server Start ==========
+[2026-03-19 23:33:17.808747] [INFO ] Log mode: ASYNC
+[2026-03-19 23:33:17.808834] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-03-19 23:33:17.808847] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-03-19 23:33:17.808851] [INFO ] Access control enabled: NO
+[2026-03-19 23:33:17.809055] [INFO ] Socket created successfully, fd=4
+[2026-03-19 23:33:17.824415] [INFO ] Thread pool created successfully
+[2026-03-19 23:33:17.824524] [INFO ] Socket bound to port 8080
+[2026-03-19 23:33:17.824682] [INFO ] Server is listening on port 8080
+[2026-03-19 23:33:17.828759] [INFO ] Epoll created successfully, epfd=5
+[2026-03-19 23:33:21.708554] [INFO ] New connection from 192.168.174.1:52666, connfd=6
+[2026-03-19 23:33:21.708743] [INFO ] New connection from 192.168.174.1:61003, connfd=7
+[2026-03-19 23:33:21.709790] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:33:21.709906] [DEBUG] Parsing request line: GET /video_test.html HTTP/1.1
+[2026-03-19 23:33:21.709927] [INFO ] HTTP Request: GET /video_test.html HTTP/1.1
+[2026-03-19 23:33:21.709961] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/video_test.html
+[2026-03-19 23:33:21.710073] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/video_test.html, size=930 bytes
+[2026-03-19 23:33:21.710089] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:33:21.710191] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:33:21.710218] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:33:21.710719] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:33:21.902230] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:33:21.902408] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-03-19 23:33:21.902426] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-03-19 23:33:21.902445] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-03-19 23:33:21.902475] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=9251371 bytes
+[2026-03-19 23:33:21.902479] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:33:21.902494] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:33:21.902505] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:33:21.921623] [WARN ] Write failed, closing connection, sockfd=6
+[2026-03-19 23:33:21.928055] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:33:21.928169] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:33:21.928301] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-03-19 23:33:21.928320] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-03-19 23:33:21.928339] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-03-19 23:33:21.928369] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=9251371 bytes
+[2026-03-19 23:33:21.928372] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:33:21.928477] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-03-19 23:33:21.930831] [DEBUG] Response sent successfully, sockfd=7
+[2026-03-19 23:33:22.059239] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:33:22.059480] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:33:22.059680] [DEBUG] Parsing request line: GET /favicon.ico HTTP/1.1
+[2026-03-19 23:33:22.059736] [INFO ] HTTP Request: GET /favicon.ico HTTP/1.1
+[2026-03-19 23:33:22.059764] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/favicon.ico
+[2026-03-19 23:33:22.059801] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/favicon.ico, size=16958 bytes
+[2026-03-19 23:33:22.059805] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:33:22.059926] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-03-19 23:33:22.061201] [DEBUG] Response sent successfully, sockfd=7
+[2026-03-19 23:33:31.399139] [INFO ] Connection closed, sockfd=7
+[2026-03-19 23:33:35.484425] [INFO ] New connection from 192.168.174.1:58053, connfd=6
+[2026-03-19 23:33:35.484619] [INFO ] New connection from 192.168.174.1:64903, connfd=7
+[2026-03-19 23:33:35.485271] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:33:35.485323] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:33:35.485568] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-03-19 23:33:35.485585] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-03-19 23:33:35.485635] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-03-19 23:33:35.485675] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=345 bytes
+[2026-03-19 23:33:35.485683] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:33:35.485844] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:33:35.487412] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:33:39.001930] [INFO ] Connection closed, sockfd=7
+[2026-03-19 23:33:39.002193] [INFO ] Connection closed, sockfd=6
+[2026-03-19 23:33:42.228753] [INFO ] New connection from 192.168.174.1:63790, connfd=6
+[2026-03-19 23:33:42.305906] [INFO ] New connection from 192.168.174.1:57482, connfd=7
+[2026-03-19 23:33:42.313159] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:33:42.313377] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:33:42.313701] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:42.313717] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:42.313743] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:42.313768] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:42.313826] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:33:42.313837] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:33:42.314846] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:33:42.314907] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:33:42.315060] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:42.315093] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:42.315147] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:42.315165] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:42.315171] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:33:42.315179] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:33:42.316728] [INFO ] New connection from 192.168.174.1:63612, connfd=6
+[2026-03-19 23:33:42.316831] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:33:42.316886] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:33:42.317225] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:42.317244] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:42.317264] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:42.317273] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:42.317276] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:33:42.317280] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:33:43.359367] [INFO ] New connection from 192.168.174.1:50996, connfd=6
+[2026-03-19 23:33:43.359756] [INFO ] New connection from 192.168.174.1:51627, connfd=7
+[2026-03-19 23:33:43.362472] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:33:43.362524] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:33:43.363030] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:43.363062] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:43.363100] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:43.363118] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:43.363123] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:33:43.363131] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:33:43.364884] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:33:43.364997] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:33:43.365792] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:43.365834] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:43.365891] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:43.365903] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:43.365906] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:33:43.365910] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:33:43.367989] [INFO ] New connection from 192.168.174.1:57794, connfd=6
+[2026-03-19 23:33:43.368160] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:33:43.368255] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:33:43.368939] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:43.368978] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:43.369269] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:43.369361] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:43.369376] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:33:43.369509] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:33:44.426991] [INFO ] New connection from 192.168.174.1:54130, connfd=6
+[2026-03-19 23:33:44.427129] [INFO ] New connection from 192.168.174.1:65230, connfd=7
+[2026-03-19 23:33:44.428075] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:33:44.428141] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:33:44.428223] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:44.428248] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:44.428270] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:44.428283] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:44.428286] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:33:44.428291] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:33:44.429188] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:33:44.429256] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:33:44.429450] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:44.429472] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:44.429494] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:44.429503] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:44.429506] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:33:44.429510] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:33:44.430855] [INFO ] New connection from 192.168.174.1:49286, connfd=6
+[2026-03-19 23:33:44.430956] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:33:44.430981] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:33:44.431077] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:44.431113] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:44.431414] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:44.431427] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:44.431430] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:33:44.431434] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:33:49.466466] [INFO ] New connection from 192.168.174.1:51614, connfd=6
+[2026-03-19 23:33:49.466579] [INFO ] New connection from 192.168.174.1:63980, connfd=7
+[2026-03-19 23:33:49.466592] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:33:49.466636] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:33:49.466702] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:49.466820] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:49.466886] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:49.466900] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:49.466903] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:33:49.466907] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:33:49.468964] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:33:49.469044] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:33:49.469404] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:49.469425] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:49.469462] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:49.469493] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:49.469501] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:33:49.469509] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:33:49.471541] [INFO ] New connection from 192.168.174.1:57138, connfd=6
+[2026-03-19 23:33:49.471943] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:33:49.472001] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:33:49.472094] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:49.472105] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:33:49.472125] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:49.472131] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:33:49.472134] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:33:49.472138] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:16.687096] [INFO ] New connection from 192.168.174.1:56705, connfd=6
+[2026-03-19 23:34:16.687295] [INFO ] New connection from 192.168.174.1:62485, connfd=7
+[2026-03-19 23:34:16.688029] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:34:16.688084] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:34:16.688224] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:16.688272] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:16.688298] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:16.688309] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:16.688312] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:16.688316] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:16.689445] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:34:16.689573] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:34:16.689730] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:16.690084] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:16.690122] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:16.690131] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:16.690135] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:16.690139] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:16.693361] [INFO ] New connection from 192.168.174.1:63764, connfd=6
+[2026-03-19 23:34:16.693447] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:34:16.693498] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:34:16.693846] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:16.693886] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:16.693912] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:16.693923] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:16.693927] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:16.693931] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:17.112018] [INFO ] New connection from 192.168.174.1:61845, connfd=6
+[2026-03-19 23:34:17.112150] [INFO ] New connection from 192.168.174.1:59863, connfd=7
+[2026-03-19 23:34:17.113249] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:34:17.113295] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:34:17.114140] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:17.114187] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:17.114213] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:17.114223] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:17.114226] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:17.114230] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:17.115593] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:34:17.115676] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:17.115687] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:17.115707] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:17.115718] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:17.115721] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:17.115724] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:17.115911] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:34:17.117504] [INFO ] New connection from 192.168.174.1:54426, connfd=6
+[2026-03-19 23:34:17.117617] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:34:17.117636] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:34:17.117765] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:17.117902] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:17.117971] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:17.118023] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:17.118031] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:17.118036] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:17.288683] [INFO ] New connection from 192.168.174.1:63827, connfd=6
+[2026-03-19 23:34:17.288908] [INFO ] New connection from 192.168.174.1:55382, connfd=7
+[2026-03-19 23:34:17.293418] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:34:17.293500] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:34:17.293697] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:17.293749] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:17.293780] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:17.293793] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:17.293796] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:17.293800] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:17.295373] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:34:17.295444] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:34:17.295493] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:17.295499] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:17.295530] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:17.295542] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:17.295544] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:17.295548] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:17.296735] [INFO ] New connection from 192.168.174.1:62816, connfd=6
+[2026-03-19 23:34:17.296797] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:34:17.296841] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:34:17.296995] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:17.297153] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:34:17.297291] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:17.297371] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:34:17.297386] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:17.297396] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:26.917910] [INFO ] New connection from 192.168.174.1:53384, connfd=6
+[2026-03-19 23:34:26.918032] [INFO ] New connection from 192.168.174.1:62311, connfd=7
+[2026-03-19 23:34:26.918044] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:34:26.918069] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:26.918073] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:26.918088] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:26.918100] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:26.918103] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:26.918107] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:26.918298] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:34:26.918843] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:34:26.918937] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:26.918946] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:26.918964] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:26.918971] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:26.918974] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:26.918977] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:26.919081] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:34:26.920317] [INFO ] New connection from 192.168.174.1:64962, connfd=6
+[2026-03-19 23:34:26.920376] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:34:26.920421] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:34:26.920495] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:26.920519] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:26.920534] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:26.920540] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:26.920542] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:26.920545] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:27.965815] [INFO ] New connection from 192.168.174.1:52407, connfd=6
+[2026-03-19 23:34:27.965909] [INFO ] New connection from 192.168.174.1:61757, connfd=7
+[2026-03-19 23:34:27.967400] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:34:27.967548] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:34:27.967771] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:27.967784] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:27.967804] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:27.967813] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:27.967816] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:27.967821] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:27.968616] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:34:27.969016] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:34:27.969143] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:27.969202] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:27.969248] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:27.969267] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:27.969270] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:27.969276] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:27.970935] [INFO ] New connection from 192.168.174.1:53850, connfd=6
+[2026-03-19 23:34:27.971130] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:34:27.971162] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:27.971205] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:27.971293] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:27.971334] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:27.971339] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:27.971345] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:27.971394] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:34:32.995964] [INFO ] New connection from 192.168.174.1:63664, connfd=6
+[2026-03-19 23:34:32.996081] [INFO ] New connection from 192.168.174.1:62929, connfd=7
+[2026-03-19 23:34:32.996775] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:34:32.996867] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:34:32.997056] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:32.997132] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:32.997358] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:32.997380] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:32.997387] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:32.997396] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:32.999725] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:34:32.999800] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:34:33.000072] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:33.000164] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:33.000242] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:33.000254] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:33.000311] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:33.000320] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:33.001962] [INFO ] New connection from 192.168.174.1:51781, connfd=6
+[2026-03-19 23:34:33.002350] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:34:33.002397] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:33.002401] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:34:33.002415] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:33.002422] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:34:33.002424] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:34:33.002427] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:34:33.002511] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:34:57.860502] [INFO ] New connection from 192.168.174.1:49367, connfd=6
+[2026-03-19 23:34:57.860605] [INFO ] New connection from 192.168.174.1:64104, connfd=7
+[2026-03-19 23:34:57.861243] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:34:57.861276] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:34:57.861420] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-03-19 23:34:57.861430] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-03-19 23:34:57.861446] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-03-19 23:34:57.861477] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=345 bytes
+[2026-03-19 23:34:57.861481] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:34:57.861693] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:34:57.862490] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:35:00.566128] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:00.566266] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:00.566279] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:00.566298] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:00.566311] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:00.566314] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:00.566318] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:00.566492] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:00.567235] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:35:00.567350] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:00.567359] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:00.567377] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:00.567385] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:00.567388] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:00.567392] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:00.567699] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:35:00.568880] [INFO ] New connection from 192.168.174.1:60520, connfd=6
+[2026-03-19 23:35:00.569046] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:00.569127] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:00.569618] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:00.569663] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:00.569711] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:00.569721] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:00.569723] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:00.569727] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:01.607487] [INFO ] New connection from 192.168.174.1:63513, connfd=6
+[2026-03-19 23:35:01.608480] [INFO ] New connection from 192.168.174.1:54435, connfd=7
+[2026-03-19 23:35:01.609930] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:01.610086] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:01.610665] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:01.610754] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:01.610799] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:01.610810] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:01.610812] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:01.610819] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:01.611802] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:35:01.611926] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:01.611942] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:01.611979] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:01.611992] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:01.611997] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:01.612005] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:01.612217] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:35:01.615158] [INFO ] New connection from 192.168.174.1:54871, connfd=6
+[2026-03-19 23:35:01.615275] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:01.615373] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:01.615674] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:01.615771] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:01.615874] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:01.615917] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:01.615924] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:01.615928] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:06.640297] [INFO ] New connection from 192.168.174.1:63115, connfd=6
+[2026-03-19 23:35:06.640457] [INFO ] New connection from 192.168.174.1:62933, connfd=7
+[2026-03-19 23:35:06.641293] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:06.641333] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:06.641428] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:06.641471] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:06.641495] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:06.641511] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:06.641517] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:06.641524] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:06.642488] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:35:06.642565] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:06.642575] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:06.642594] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:06.642600] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:06.642603] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:06.642606] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:06.642625] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:35:06.646922] [INFO ] New connection from 192.168.174.1:54420, connfd=6
+[2026-03-19 23:35:06.647046] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:06.647096] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:06.647127] [DEBUG] Parsing request line: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:06.647132] [INFO ] HTTP Request: GET /resources/register.html HTTP/1.1
+[2026-03-19 23:35:06.647149] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:06.647160] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/register.html
+[2026-03-19 23:35:06.647162] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:06.647166] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:07.481982] [INFO ] New connection from 192.168.174.1:63589, connfd=6
+[2026-03-19 23:35:07.482098] [INFO ] New connection from 192.168.174.1:60751, connfd=7
+[2026-03-19 23:35:07.482968] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:07.483102] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:07.483377] [DEBUG] Parsing request line: GET /register.html HTTP/1.1
+[2026-03-19 23:35:07.483468] [INFO ] HTTP Request: GET /register.html HTTP/1.1
+[2026-03-19 23:35:07.483490] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/register.html
+[2026-03-19 23:35:07.483515] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/register.html, size=345 bytes
+[2026-03-19 23:35:07.483519] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:35:07.484060] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:35:07.487818] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:35:09.368670] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:09.369124] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:09.369424] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:09.369439] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:09.369457] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:09.369470] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:09.369472] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:09.369477] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:09.370104] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:35:09.370207] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:09.370215] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:09.370234] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:09.370243] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:09.370245] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:09.370249] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:09.370486] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:35:09.371881] [INFO ] New connection from 192.168.174.1:54101, connfd=6
+[2026-03-19 23:35:09.371928] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:09.371942] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:09.372269] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:09.372288] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:09.372324] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:09.372335] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:09.372412] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:09.372431] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:10.420999] [INFO ] New connection from 192.168.174.1:52313, connfd=6
+[2026-03-19 23:35:10.421294] [INFO ] New connection from 192.168.174.1:52401, connfd=7
+[2026-03-19 23:35:10.424072] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:10.424149] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:10.424243] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:10.424258] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:10.424278] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:10.424329] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:10.424340] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:10.424346] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:10.425176] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:35:10.425236] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:35:10.425317] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:10.425329] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:10.425350] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:10.425359] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:10.425362] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:10.425366] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:10.426630] [INFO ] New connection from 192.168.174.1:52223, connfd=6
+[2026-03-19 23:35:10.426660] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:10.426716] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:10.426900] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:10.426946] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:10.427013] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:10.427024] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:10.427027] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:10.427031] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:15.455822] [INFO ] New connection from 192.168.174.1:59841, connfd=6
+[2026-03-19 23:35:15.455910] [INFO ] New connection from 192.168.174.1:56375, connfd=7
+[2026-03-19 23:35:15.455921] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:15.455942] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:15.455947] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:15.455964] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:15.456038] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:15.456050] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:15.456056] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:15.456660] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:22.468329] [INFO ] sockfd 6 closed
+[2026-03-19 23:35:22.468383] [INFO ] sockfd 7 closed
+[2026-03-19 23:35:22.470683] [INFO ] sockfd 6 closed
+[2026-03-19 23:35:23.472630] [INFO ] sockfd 6 closed
+[2026-03-19 23:35:23.472659] [INFO ] sockfd 7 closed
+[2026-03-19 23:35:23.472664] [INFO ] sockfd 6 closed
+[2026-03-19 23:35:24.473961] [INFO ] sockfd 6 closed
+[2026-03-19 23:35:24.474031] [INFO ] sockfd 7 closed
+[2026-03-19 23:35:24.474043] [INFO ] sockfd 6 closed
+[2026-03-19 23:35:26.447583] [INFO ] New connection from 192.168.174.1:54619, connfd=6
+[2026-03-19 23:35:26.447676] [INFO ] New connection from 192.168.174.1:50686, connfd=7
+[2026-03-19 23:35:26.449167] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:26.449255] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:26.449264] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:26.449283] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:26.449301] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:26.449295] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:26.449309] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:26.449317] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:26.449895] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:35:26.449920] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:35:26.449978] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:26.449984] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:26.450002] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:26.450009] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:26.450011] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:26.450015] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:26.451447] [INFO ] New connection from 192.168.174.1:55461, connfd=6
+[2026-03-19 23:35:26.451714] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:26.451806] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:26.451949] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:26.451981] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:26.452006] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:26.452014] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:26.452016] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:26.452020] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:27.634847] [INFO ] New connection from 192.168.174.1:61858, connfd=6
+[2026-03-19 23:35:27.634898] [INFO ] New connection from 192.168.174.1:61742, connfd=7
+[2026-03-19 23:35:27.638116] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:27.638220] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:27.638231] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:27.638250] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:27.638263] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:27.638266] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:27.638271] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:27.638419] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:27.639085] [DEBUG] EPOLLIN event on sockfd=7
+[2026-03-19 23:35:27.639206] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:27.639222] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:27.639259] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:27.639272] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:27.639278] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:27.639286] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:27.639478] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-03-19 23:35:27.640759] [INFO ] New connection from 192.168.174.1:53773, connfd=6
+[2026-03-19 23:35:27.640957] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:27.641084] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:27.641252] [DEBUG] Parsing request line: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:27.641338] [INFO ] HTTP Request: GET /resources/login.html HTTP/1.1
+[2026-03-19 23:35:27.641367] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:27.641377] [WARN ] File not found: /home/nowcoder/Linux/server_with_features/resources/resources/login.html
+[2026-03-19 23:35:27.641380] [DEBUG] Processing request, result code: 3
+[2026-03-19 23:35:27.641385] [ERROR] Response generation failed, closing connection
+[2026-03-19 23:35:29.644230] [INFO ] sockfd 6 closed
+[2026-03-19 23:35:29.644274] [INFO ] sockfd 7 closed
+[2026-03-19 23:35:29.644284] [INFO ] sockfd 6 closed
+[2026-03-19 23:35:38.709687] [INFO ] New connection from 192.168.174.1:51909, connfd=6
+[2026-03-19 23:35:38.709776] [INFO ] New connection from 192.168.174.1:62787, connfd=7
+[2026-03-19 23:35:38.710548] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:38.710651] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:38.710924] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-03-19 23:35:38.711014] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-03-19 23:35:38.711039] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-03-19 23:35:38.711067] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=334 bytes
+[2026-03-19 23:35:38.711072] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:35:38.711087] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:35:38.711377] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:35:40.113410] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:40.113573] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:40.113904] [DEBUG] Parsing request line: GET /register.html HTTP/1.1
+[2026-03-19 23:35:40.113967] [INFO ] HTTP Request: GET /register.html HTTP/1.1
+[2026-03-19 23:35:40.114007] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/register.html
+[2026-03-19 23:35:40.114048] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/register.html, size=334 bytes
+[2026-03-19 23:35:40.114053] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:35:40.114208] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:35:40.114550] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:35:40.850097] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:40.850720] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-03-19 23:35:40.850744] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-03-19 23:35:40.850798] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-03-19 23:35:40.850835] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=334 bytes
+[2026-03-19 23:35:40.850840] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:35:40.850855] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:40.850867] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:35:40.850907] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:35:41.729717] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:41.729845] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:41.730092] [DEBUG] Parsing request line: GET /register.html HTTP/1.1
+[2026-03-19 23:35:41.730109] [INFO ] HTTP Request: GET /register.html HTTP/1.1
+[2026-03-19 23:35:41.730144] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/register.html
+[2026-03-19 23:35:41.730195] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/register.html, size=334 bytes
+[2026-03-19 23:35:41.730202] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:35:41.730394] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:35:41.730694] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:35:42.785376] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:35:42.785484] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:35:42.785861] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-03-19 23:35:42.785957] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-03-19 23:35:42.786000] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-03-19 23:35:42.786050] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=334 bytes
+[2026-03-19 23:35:42.786058] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:35:42.786210] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:35:42.786826] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:35:56.840428] [INFO ] sockfd 6 closed
+[2026-03-19 23:35:56.841046] [INFO ] sockfd 7 closed
+[2026-03-19 23:35:56.841561] [INFO ] sockfd 6 closed
+[2026-03-19 23:35:57.843355] [INFO ] sockfd 6 closed
+[2026-03-19 23:35:57.843403] [INFO ] sockfd 7 closed
+[2026-03-19 23:35:57.843411] [INFO ] sockfd 6 closed
+[2026-03-19 23:35:57.843416] [INFO ] sockfd 6 closed
+[2026-03-19 23:35:57.843420] [INFO ] sockfd 7 closed
+[2026-03-19 23:35:57.843424] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:06.858449] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:06.860926] [INFO ] sockfd 7 closed
+[2026-03-19 23:36:06.863125] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:07.866838] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:07.866970] [INFO ] sockfd 7 closed
+[2026-03-19 23:36:07.866990] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:12.876161] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:12.876202] [INFO ] sockfd 7 closed
+[2026-03-19 23:36:13.894845] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:40.973159] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:40.973286] [INFO ] sockfd 7 closed
+[2026-03-19 23:36:40.974148] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:41.977308] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:41.979351] [INFO ] sockfd 7 closed
+[2026-03-19 23:36:41.979412] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:47.017486] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:47.017535] [INFO ] sockfd 7 closed
+[2026-03-19 23:36:47.017541] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:49.021681] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:49.021764] [INFO ] sockfd 7 closed
+[2026-03-19 23:36:49.021776] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:50.023234] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:50.023294] [INFO ] sockfd 7 closed
+[2026-03-19 23:36:50.023333] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:55.043334] [INFO ] sockfd 6 closed
+[2026-03-19 23:36:55.043460] [INFO ] sockfd 7 closed
+[2026-03-19 23:37:06.086659] [INFO ] sockfd 6 closed
+[2026-03-19 23:37:06.088908] [INFO ] sockfd 7 closed
+[2026-03-19 23:37:06.090034] [INFO ] sockfd 6 closed
+[2026-03-19 23:37:07.092483] [INFO ] sockfd 6 closed
+[2026-03-19 23:37:07.092626] [INFO ] sockfd 7 closed
+[2026-03-19 23:37:07.092652] [INFO ] sockfd 6 closed
+[2026-03-19 23:37:22.129593] [INFO ] sockfd 6 closed
+[2026-03-19 23:37:22.131335] [INFO ] sockfd 7 closed
+[2026-03-19 23:41:09.325502] [INFO ] New connection from 192.168.174.1:59056, connfd=6
+[2026-03-19 23:41:09.325698] [INFO ] New connection from 192.168.174.1:53517, connfd=7
+[2026-03-19 23:41:09.332476] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:41:09.332576] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:41:09.332742] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-03-19 23:41:09.332758] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-03-19 23:41:09.424447] [INFO ] MySQL connection established successfully
+[2026-03-19 23:41:09.479407] [DEBUG] Processing request, result code: 8
+[2026-03-19 23:41:09.479573] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:41:09.479759] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:41:34.963917] [INFO ] Connection closed, sockfd=7
+[2026-03-19 23:41:34.964243] [INFO ] Connection closed, sockfd=6
+[2026-03-19 23:43:15.494560] [INFO ] New connection from 192.168.174.1:55263, connfd=6
+[2026-03-19 23:43:15.594597] [INFO ] New connection from 192.168.174.1:50854, connfd=7
+[2026-03-19 23:43:15.600570] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:43:15.600740] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-03-19 23:43:15.600753] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-03-19 23:43:15.600772] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-03-19 23:43:15.600810] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=334 bytes
+[2026-03-19 23:43:15.600814] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:43:15.600828] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:43:15.600840] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:43:15.601498] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:43:35.937852] [INFO ] Connection closed, sockfd=7
+[2026-03-19 23:43:35.938116] [INFO ] Connection closed, sockfd=6
+[2026-03-19 23:47:42.299914] [INFO ] New connection from 192.168.174.1:53926, connfd=6
+[2026-03-19 23:47:42.300039] [INFO ] New connection from 192.168.174.1:59721, connfd=7
+[2026-03-19 23:47:42.345711] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:47:42.345812] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:47:42.345934] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-03-19 23:47:42.345946] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-03-19 23:47:42.397168] [INFO ] MySQL connection established successfully
+[2026-03-19 23:47:42.404082] [DEBUG] Processing request, result code: 8
+[2026-03-19 23:47:42.404607] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:47:42.404941] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:47:45.559313] [INFO ] Connection closed, sockfd=7
+[2026-03-19 23:47:45.559670] [INFO ] Connection closed, sockfd=6
+[2026-03-19 23:54:38.493246] [INFO ] New connection from 192.168.174.1:57792, connfd=6
+[2026-03-19 23:54:38.626415] [INFO ] New connection from 192.168.174.1:61108, connfd=7
+[2026-03-19 23:54:38.632334] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:54:38.632433] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:54:38.634002] [DEBUG] Parsing request line: GET /login.html HTTP/1.1
+[2026-03-19 23:54:38.634031] [INFO ] HTTP Request: GET /login.html HTTP/1.1
+[2026-03-19 23:54:38.634174] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/login.html
+[2026-03-19 23:54:38.634211] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/login.html, size=334 bytes
+[2026-03-19 23:54:38.634216] [DEBUG] Processing request, result code: 5
+[2026-03-19 23:54:38.634457] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:54:38.634829] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:54:41.442149] [INFO ] Connection closed, sockfd=7
+[2026-03-19 23:54:41.442752] [INFO ] Connection closed, sockfd=6
+[2026-03-19 23:54:48.372337] [INFO ] New connection from 192.168.174.1:56449, connfd=6
+[2026-03-19 23:54:48.372454] [INFO ] New connection from 192.168.174.1:58483, connfd=7
+[2026-03-19 23:54:48.374706] [DEBUG] EPOLLIN event on sockfd=6
+[2026-03-19 23:54:48.374799] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-03-19 23:54:48.374963] [DEBUG] Parsing request line: POST /login HTTP/1.1
+[2026-03-19 23:54:48.374978] [INFO ] HTTP Request: POST /login HTTP/1.1
+[2026-03-19 23:54:48.386432] [INFO ] MySQL connection established successfully
+[2026-03-19 23:54:48.390565] [DEBUG] Processing request, result code: 8
+[2026-03-19 23:54:48.390763] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-03-19 23:54:48.391040] [DEBUG] Response sent successfully, sockfd=6
+[2026-03-19 23:54:55.661307] [INFO ] Connection closed, sockfd=7
+[2026-03-19 23:54:55.663131] [INFO ] Connection closed, sockfd=6

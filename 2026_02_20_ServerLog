@@ -1,0 +1,626 @@
+[2026-02-20 06:20:48.008322] [INFO ] ========== Server Start ==========
+[2026-02-20 06:20:48.008340] [INFO ] Log mode: ASYNC
+[2026-02-20 06:20:48.008450] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-20 06:20:48.008457] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-20 06:20:48.008460] [INFO ] Access control enabled: NO
+[2026-02-20 06:20:48.008480] [INFO ] Socket created successfully, fd=4
+[2026-02-20 06:20:48.013111] [INFO ] Thread pool created successfully
+[2026-02-20 06:20:48.013195] [INFO ] Socket bound to port 8080
+[2026-02-20 06:20:48.013305] [INFO ] Server is listening on port 8080
+[2026-02-20 06:20:48.013398] [INFO ] Epoll created successfully, epfd=5
+[2026-02-20 06:20:50.593800] [INFO ] New connection from 192.168.3.71:56779, connfd=6
+[2026-02-20 06:20:50.593912] [INFO ] New connection from 192.168.3.71:49432, connfd=7
+[2026-02-20 06:20:50.595273] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:20:50.595371] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:20:50.595948] [DEBUG] Parsing request line: GET /video_test.html HTTP/1.1
+[2026-02-20 06:20:50.596081] [INFO ] HTTP Request: GET /video_test.html HTTP/1.1
+[2026-02-20 06:20:50.596104] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/video_test.html
+[2026-02-20 06:20:50.596150] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/video_test.html, size=930 bytes
+[2026-02-20 06:20:50.596157] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:20:50.596474] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:20:50.597929] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:20:50.732671] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:20:50.732805] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:20:50.732821] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:20:50.732839] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 06:20:50.732871] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 06:20:50.732875] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:20:50.732886] [INFO ] Range request: bytes=0--1
+[2026-02-20 06:20:50.732904] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:20:50.732918] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:20:50.733193] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:20:50.737284] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:20:50.737416] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:20:50.738592] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:20:50.763030] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:20:50.766319] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:20:50.791251] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:20:50.794584] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:20:50.811378] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:20:50.820583] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:20:50.849115] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:20:50.852365] [INFO ] Connection closed, sockfd=6
+[2026-02-20 06:20:50.865109] [DEBUG] EPOLLIN event on sockfd=7
+[2026-02-20 06:20:50.865213] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-02-20 06:20:50.865538] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:20:50.865569] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:20:50.865596] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 06:20:50.865615] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 06:20:50.865618] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:20:50.865637] [INFO ] Range request: bytes=2097152--1
+[2026-02-20 06:20:50.865752] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 06:20:50.865844] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 06:20:50.868278] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 06:20:50.868837] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 06:20:50.872612] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 06:20:50.872747] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 06:20:50.876982] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 06:20:50.877574] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 06:20:50.882797] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 06:30:17.543220] [INFO ] ========== Server Start ==========
+[2026-02-20 06:30:17.543238] [INFO ] Log mode: ASYNC
+[2026-02-20 06:30:17.543329] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-20 06:30:17.543334] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-20 06:30:17.543337] [INFO ] Access control enabled: NO
+[2026-02-20 06:30:17.543354] [INFO ] Socket created successfully, fd=4
+[2026-02-20 06:30:17.550683] [INFO ] Thread pool created successfully
+[2026-02-20 06:30:17.553994] [INFO ] Socket bound to port 8080
+[2026-02-20 06:30:17.554146] [INFO ] Server is listening on port 8080
+[2026-02-20 06:30:17.554170] [INFO ] Epoll created successfully, epfd=5
+[2026-02-20 06:30:24.575873] [INFO ] New connection from 192.168.3.71:55945, connfd=6
+[2026-02-20 06:30:24.575992] [INFO ] New connection from 192.168.3.71:62987, connfd=7
+[2026-02-20 06:30:24.577225] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:30:24.577304] [DEBUG] Parsing request line: GET /video_test.html HTTP/1.1
+[2026-02-20 06:30:24.577341] [INFO ] HTTP Request: GET /video_test.html HTTP/1.1
+[2026-02-20 06:30:24.577403] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/video_test.html
+[2026-02-20 06:30:24.577430] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/video_test.html, size=930 bytes
+[2026-02-20 06:30:24.577468] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:30:24.577487] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:30:24.577501] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:30:24.577548] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:30:24.708931] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:30:24.709113] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:30:24.709313] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:30:24.709340] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:30:24.709374] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 06:30:24.709514] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 06:30:24.709524] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:30:24.709535] [INFO ] Range request: bytes=0--1
+[2026-02-20 06:30:24.709843] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:30:24.710945] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:30:24.714049] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:30:24.785582] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:30:24.805511] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:30:41.046602] [INFO ] ========== Server Start ==========
+[2026-02-20 06:30:41.046615] [INFO ] Log mode: ASYNC
+[2026-02-20 06:30:41.046679] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-20 06:30:41.046684] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-20 06:30:41.046685] [INFO ] Access control enabled: NO
+[2026-02-20 06:30:41.046697] [INFO ] Socket created successfully, fd=4
+[2026-02-20 06:30:41.049122] [INFO ] Thread pool created successfully
+[2026-02-20 06:30:41.049180] [ERROR] Failed to bind socket to port 8080
+[2026-02-20 06:30:50.372767] [INFO ] ========== Server Start ==========
+[2026-02-20 06:30:50.372778] [INFO ] Log mode: ASYNC
+[2026-02-20 06:30:50.372834] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-20 06:30:50.372838] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-20 06:30:50.372840] [INFO ] Access control enabled: NO
+[2026-02-20 06:30:50.372851] [INFO ] Socket created successfully, fd=4
+[2026-02-20 06:30:50.375361] [INFO ] Thread pool created successfully
+[2026-02-20 06:30:50.375431] [ERROR] Failed to bind socket to port 8080
+[2026-02-20 06:31:06.217828] [INFO ] ========== Server Start ==========
+[2026-02-20 06:31:06.217839] [INFO ] Log mode: ASYNC
+[2026-02-20 06:31:06.217893] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-20 06:31:06.217896] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-20 06:31:06.217898] [INFO ] Access control enabled: NO
+[2026-02-20 06:31:06.217910] [INFO ] Socket created successfully, fd=4
+[2026-02-20 06:31:06.221340] [INFO ] Thread pool created successfully
+[2026-02-20 06:31:06.221391] [ERROR] Failed to bind socket to port 8080
+[2026-02-20 06:32:03.748931] [INFO ] ========== Server Start ==========
+[2026-02-20 06:32:03.748949] [INFO ] Log mode: ASYNC
+[2026-02-20 06:32:03.749001] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-20 06:32:03.749004] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-20 06:32:03.749006] [INFO ] Access control enabled: NO
+[2026-02-20 06:32:03.749017] [INFO ] Socket created successfully, fd=4
+[2026-02-20 06:32:03.751348] [INFO ] Thread pool created successfully
+[2026-02-20 06:32:03.751402] [INFO ] Socket bound to port 8080
+[2026-02-20 06:32:03.751459] [INFO ] Server is listening on port 8080
+[2026-02-20 06:32:03.751475] [INFO ] Epoll created successfully, epfd=5
+[2026-02-20 06:32:10.470594] [INFO ] New connection from 192.168.3.71:61911, connfd=6
+[2026-02-20 06:32:10.470807] [INFO ] New connection from 192.168.3.71:62741, connfd=7
+[2026-02-20 06:32:10.478448] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:32:10.478552] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:32:10.479218] [DEBUG] Parsing request line: GET /video_test.html HTTP/1.1
+[2026-02-20 06:32:10.479245] [INFO ] HTTP Request: GET /video_test.html HTTP/1.1
+[2026-02-20 06:32:10.479265] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/video_test.html
+[2026-02-20 06:32:10.479289] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/video_test.html, size=930 bytes
+[2026-02-20 06:32:10.479292] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:32:10.479548] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:32:10.479732] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:32:10.679725] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:32:10.679812] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:32:10.679992] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:32:10.680022] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:32:10.680058] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 06:32:10.680101] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 06:32:10.680107] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:32:10.680123] [INFO ] Range request: bytes=0--1
+[2026-02-20 06:32:10.680393] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:32:10.680587] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:32:10.684822] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:32:10.726469] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:32:10.742357] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:32:10.758573] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:32:10.772306] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:32:10.791760] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:32:10.810687] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:32:10.813041] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:32:10.830429] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:40.746387] [INFO ] ========== Server Start ==========
+[2026-02-20 06:39:40.746398] [INFO ] Log mode: ASYNC
+[2026-02-20 06:39:40.746478] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-20 06:39:40.746484] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-20 06:39:40.746486] [INFO ] Access control enabled: NO
+[2026-02-20 06:39:40.746499] [INFO ] Socket created successfully, fd=4
+[2026-02-20 06:39:40.751750] [INFO ] Thread pool created successfully
+[2026-02-20 06:39:40.751851] [INFO ] Socket bound to port 8080
+[2026-02-20 06:39:40.752005] [INFO ] Server is listening on port 8080
+[2026-02-20 06:39:40.752027] [INFO ] Epoll created successfully, epfd=5
+[2026-02-20 06:39:55.142873] [INFO ] New connection from 192.168.3.71:63179, connfd=6
+[2026-02-20 06:39:55.143049] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:39:55.143125] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:39:55.143365] [DEBUG] Parsing request line: GET /video_test.html HTTP/1.1
+[2026-02-20 06:39:55.143466] [INFO ] HTTP Request: GET /video_test.html HTTP/1.1
+[2026-02-20 06:39:55.143775] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/video_test.html
+[2026-02-20 06:39:55.143821] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/video_test.html, size=930 bytes
+[2026-02-20 06:39:55.143827] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:39:55.143859] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.143925] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.185112] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:39:55.185245] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:39:55.185368] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:39:55.185379] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:39:55.185396] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 06:39:55.185436] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 06:39:55.185442] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:39:55.185457] [INFO ] Range request: bytes=0--1
+[2026-02-20 06:39:55.185493] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.186427] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.189281] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.190671] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.193963] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.194277] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.197083] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.197400] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.200824] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.201862] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.204731] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.205098] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.210173] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.212383] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.219763] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.221178] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.225724] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.226630] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.234446] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.234625] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.245514] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.297366] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.310694] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.326672] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.339774] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:39:55.418324] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:39:55.423197] [INFO ] Connection closed, sockfd=6
+[2026-02-20 06:40:01.430517] [INFO ] New connection from 192.168.3.71:59617, connfd=6
+[2026-02-20 06:40:01.430621] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:40:01.430657] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:40:01.431068] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:40:01.431081] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:40:01.431097] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 06:40:01.431162] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 06:40:01.431176] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:40:01.431181] [INFO ] Range request: bytes=6455296--1
+[2026-02-20 06:40:01.431527] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:01.432531] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:01.436602] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:01.437439] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:01.442243] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:01.443264] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:01.451191] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:01.454406] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:01.460096] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:01.460973] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:01.469791] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:01.474406] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:01.481466] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:01.493129] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:01.511596] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:01.655379] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:01.666327] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:01.696239] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:42.179089] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:40:42.179273] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:40:42.179667] [DEBUG] Parsing request line: GET /video_test.html HTTP/1.1
+[2026-02-20 06:40:42.179694] [INFO ] HTTP Request: GET /video_test.html HTTP/1.1
+[2026-02-20 06:40:42.179727] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/video_test.html
+[2026-02-20 06:40:42.179766] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/video_test.html, size=930 bytes
+[2026-02-20 06:40:42.179771] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:40:42.180194] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:42.180729] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:42.216539] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:40:42.216641] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:40:42.216997] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:40:42.217371] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:40:42.217464] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 06:40:42.217495] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 06:40:42.217499] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:40:42.217504] [INFO ] Range request: bytes=0--1
+[2026-02-20 06:40:42.217621] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:42.219801] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:42.236547] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:42.259990] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:42.275404] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:42.314939] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:42.332052] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:42.354331] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:42.380552] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:42.390353] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:42.417360] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:42.430579] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:42.452461] [INFO ] Connection closed, sockfd=6
+[2026-02-20 06:40:48.808315] [INFO ] New connection from 192.168.3.71:61665, connfd=6
+[2026-02-20 06:40:48.810660] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:40:48.810757] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:40:48.810933] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:40:48.810978] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:40:48.811001] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 06:40:48.811025] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 06:40:48.811029] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:40:48.811033] [INFO ] Range request: bytes=6455296--1
+[2026-02-20 06:40:48.811276] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.812197] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.814156] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.814922] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.820630] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.821062] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.824014] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.824272] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.827972] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.828660] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.834756] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.835749] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.840856] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.845601] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.856674] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.857097] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.863894] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.865518] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.871514] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.873670] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.881056] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.891981] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.899526] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.899754] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.912749] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.912979] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.924457] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.934832] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.939575] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.940126] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.953009] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.958940] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.970301] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.970611] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:48.986993] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:48.990195] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:49.010007] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:40:49.046344] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:40:56.700603] [INFO ] Connection closed, sockfd=6
+[2026-02-20 06:42:02.246787] [INFO ] New connection from 192.168.3.71:64664, connfd=6
+[2026-02-20 06:42:02.246899] [INFO ] New connection from 192.168.3.71:52181, connfd=7
+[2026-02-20 06:42:02.248441] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:42:02.248582] [DEBUG] Parsing request line: GET /video_test.html HTTP/1.1
+[2026-02-20 06:42:02.248597] [INFO ] HTTP Request: GET /video_test.html HTTP/1.1
+[2026-02-20 06:42:02.248620] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/video_test.html
+[2026-02-20 06:42:02.248646] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/video_test.html, size=930 bytes
+[2026-02-20 06:42:02.248650] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:42:02.248662] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:42:02.248735] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.248955] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.381989] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:42:02.382093] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:42:02.382286] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:42:02.382411] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:42:02.382449] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 06:42:02.382480] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 06:42:02.382483] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:42:02.382489] [INFO ] Range request: bytes=0--1
+[2026-02-20 06:42:02.382687] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.382817] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.386007] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.386557] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.391816] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.392437] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.395615] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.396099] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.399282] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.399415] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.402971] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.403513] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.407966] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.408935] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.411943] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.414972] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.416889] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.417284] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.423221] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.425371] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.432854] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.436652] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.443418] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.443950] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.448437] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.450453] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.456164] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.456422] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.463809] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.475593] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.481731] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:42:02.487720] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:42:02.506635] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:43:38.913775] [INFO ] ========== Server Start ==========
+[2026-02-20 06:43:38.913802] [INFO ] Log mode: ASYNC
+[2026-02-20 06:43:38.913869] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-20 06:43:38.913872] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-20 06:43:38.913873] [INFO ] Access control enabled: NO
+[2026-02-20 06:43:38.913885] [INFO ] Socket created successfully, fd=4
+[2026-02-20 06:43:38.917231] [INFO ] Thread pool created successfully
+[2026-02-20 06:43:38.917277] [INFO ] Socket bound to port 8080
+[2026-02-20 06:43:38.917330] [INFO ] Server is listening on port 8080
+[2026-02-20 06:43:38.917341] [INFO ] Epoll created successfully, epfd=5
+[2026-02-20 06:45:07.823870] [INFO ] New connection from 192.168.3.77:51924, connfd=6
+[2026-02-20 06:45:07.823971] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:45:07.824069] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:45:07.824085] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:45:07.824098] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 06:45:07.824121] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 06:45:07.824125] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:45:07.824137] [INFO ] Range request: bytes=0-1048575
+[2026-02-20 06:45:07.824160] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:45:07.824172] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:45:07.825275] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:45:07.830710] [INFO ] Connection closed, sockfd=6
+[2026-02-20 06:45:31.104880] [INFO ] New connection from 192.168.3.77:57850, connfd=6
+[2026-02-20 06:45:31.105393] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 06:45:31.105481] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 06:45:31.106039] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:45:31.106109] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 06:45:31.106134] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 06:45:31.106154] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 06:45:31.106157] [DEBUG] Processing request, result code: 5
+[2026-02-20 06:45:31.106162] [INFO ] Range request: bytes=0-1048575
+[2026-02-20 06:45:31.106415] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 06:45:31.107116] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 06:45:31.115580] [INFO ] Connection closed, sockfd=6
+[2026-02-20 07:04:51.124708] [INFO ] ========== Server Start ==========
+[2026-02-20 07:04:51.124725] [INFO ] Log mode: ASYNC
+[2026-02-20 07:04:51.124821] [INFO ] Whitelist file not loaded or empty (./whitelist.conf)
+[2026-02-20 07:04:51.124827] [INFO ] Blacklist file not loaded or empty (./blacklist.conf)
+[2026-02-20 07:04:51.124830] [INFO ] Access control enabled: NO
+[2026-02-20 07:04:51.124846] [INFO ] Socket created successfully, fd=4
+[2026-02-20 07:04:51.129018] [INFO ] Thread pool created successfully
+[2026-02-20 07:04:51.129065] [INFO ] Socket bound to port 8080
+[2026-02-20 07:04:51.129141] [INFO ] Server is listening on port 8080
+[2026-02-20 07:04:51.129152] [INFO ] Epoll created successfully, epfd=5
+[2026-02-20 07:05:01.038616] [INFO ] New connection from 192.168.3.71:58252, connfd=6
+[2026-02-20 07:05:01.038817] [INFO ] New connection from 192.168.3.71:61248, connfd=7
+[2026-02-20 07:05:01.046474] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 07:05:01.046618] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 07:05:01.046989] [DEBUG] Parsing request line: GET /video_test.html HTTP/1.1
+[2026-02-20 07:05:01.047019] [INFO ] HTTP Request: GET /video_test.html HTTP/1.1
+[2026-02-20 07:05:01.047037] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/video_test.html
+[2026-02-20 07:05:01.047057] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/video_test.html, size=930 bytes
+[2026-02-20 07:05:01.047060] [DEBUG] Processing request, result code: 5
+[2026-02-20 07:05:01.047261] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.048215] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.244180] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 07:05:01.244302] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 07:05:01.244558] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 07:05:01.244580] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 07:05:01.244600] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 07:05:01.244673] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 07:05:01.244692] [DEBUG] Processing request, result code: 5
+[2026-02-20 07:05:01.244937] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.245939] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.248739] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.249643] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.256209] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.257550] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.261336] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.263230] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.265571] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.269148] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.273788] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.275215] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.281322] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.282207] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.286168] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.286375] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.292337] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.294500] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.297618] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.297861] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.303839] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.306167] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.309489] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.312702] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.317289] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.331917] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:01.384100] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:01.392864] [WARN ] Write failed, closing connection, sockfd=6
+[2026-02-20 07:05:01.399607] [DEBUG] EPOLLIN event on sockfd=7
+[2026-02-20 07:05:01.399700] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-02-20 07:05:01.399842] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 07:05:01.399854] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 07:05:01.399871] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 07:05:01.399891] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 07:05:01.399895] [DEBUG] Processing request, result code: 5
+[2026-02-20 07:05:01.399990] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:01.400949] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:01.401752] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:01.408244] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:01.411030] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:01.411442] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:01.416280] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:01.416452] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:01.420903] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:01.421459] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:01.426694] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:01.428146] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:01.434777] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:01.440550] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:01.450036] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:01.455305] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:01.461577] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:01.465512] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:01.472949] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:01.476198] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:01.486964] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:01.487302] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:01.497354] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:01.497910] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:01.508717] [INFO ] Connection closed, sockfd=7
+[2026-02-20 07:05:07.021863] [INFO ] New connection from 192.168.3.71:64833, connfd=6
+[2026-02-20 07:05:07.022033] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 07:05:07.022065] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 07:05:07.023019] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 07:05:07.023068] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 07:05:07.023164] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 07:05:07.023193] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 07:05:07.023197] [DEBUG] Processing request, result code: 5
+[2026-02-20 07:05:07.023287] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.024188] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:07.035730] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.036538] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:07.042754] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.043554] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:07.048215] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.051306] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:07.056194] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.057432] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:07.060507] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.060664] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:07.065494] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.066147] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:07.071080] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.072131] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:07.080688] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.081791] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:07.089596] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.093573] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:07.099144] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.102623] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:07.108253] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.109726] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:07.119744] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.150594] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:07.164138] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:07.166452] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:12.406618] [INFO ] New connection from 192.168.3.71:54510, connfd=7
+[2026-02-20 07:05:12.414681] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 07:05:12.414788] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 07:05:12.414950] [DEBUG] Parsing request line: GET /video_test.html HTTP/1.1
+[2026-02-20 07:05:12.414967] [INFO ] HTTP Request: GET /video_test.html HTTP/1.1
+[2026-02-20 07:05:12.414984] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/video_test.html
+[2026-02-20 07:05:12.415019] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/video_test.html, size=930 bytes
+[2026-02-20 07:05:12.415022] [DEBUG] Processing request, result code: 5
+[2026-02-20 07:05:12.415100] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:12.416087] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:12.608120] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 07:05:12.608216] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 07:05:12.608385] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 07:05:12.608412] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 07:05:12.608523] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 07:05:12.608569] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 07:05:12.608576] [DEBUG] Processing request, result code: 5
+[2026-02-20 07:05:12.608781] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:12.764503] [WARN ] Write failed, closing connection, sockfd=6
+[2026-02-20 07:05:12.770041] [DEBUG] EPOLLIN event on sockfd=7
+[2026-02-20 07:05:12.770137] [DEBUG] Request appended to thread pool, sockfd=7
+[2026-02-20 07:05:12.770291] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 07:05:12.770308] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 07:05:12.770327] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 07:05:12.770358] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 07:05:12.770362] [DEBUG] Processing request, result code: 5
+[2026-02-20 07:05:12.770738] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.771219] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.773187] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.774784] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.776531] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.777575] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.779229] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.780066] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.782241] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.782657] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.785564] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.787959] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.790015] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.790564] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.796929] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.797897] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.800283] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.801422] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.806685] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.809522] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.814688] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.816071] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.822658] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.823348] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.830266] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.831927] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.839153] [DEBUG] EPOLLOUT event on sockfd=7
+[2026-02-20 07:05:12.841470] [DEBUG] Response sent successfully, sockfd=7
+[2026-02-20 07:05:12.847194] [INFO ] Connection closed, sockfd=7
+[2026-02-20 07:05:14.801253] [INFO ] New connection from 192.168.3.71:55633, connfd=6
+[2026-02-20 07:05:14.801359] [DEBUG] EPOLLIN event on sockfd=6
+[2026-02-20 07:05:14.801465] [DEBUG] Request appended to thread pool, sockfd=6
+[2026-02-20 07:05:14.802024] [DEBUG] Parsing request line: GET /sample.mp4 HTTP/1.1
+[2026-02-20 07:05:14.802038] [INFO ] HTTP Request: GET /sample.mp4 HTTP/1.1
+[2026-02-20 07:05:14.802055] [INFO ] Requesting file: /home/nowcoder/Linux/server_with_features/resources/sample.mp4
+[2026-02-20 07:05:14.802075] [INFO ] File request successful: /home/nowcoder/Linux/server_with_features/resources/sample.mp4, size=12453439 bytes
+[2026-02-20 07:05:14.802077] [DEBUG] Processing request, result code: 5
+[2026-02-20 07:05:14.802450] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.802961] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.804809] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.805473] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.810206] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.813270] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.815197] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.815493] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.822764] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.824964] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.829892] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.830351] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.834298] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.835362] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.841489] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.850474] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.854270] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.854939] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.859621] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.864219] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.868443] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.872277] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.882166] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.883051] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.891271] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.894670] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.901686] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.905898] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.914724] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.918160] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.925943] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.929065] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.950518] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.950905] [DEBUG] Response sent successfully, sockfd=6
+[2026-02-20 07:05:14.964254] [DEBUG] EPOLLOUT event on sockfd=6
+[2026-02-20 07:05:14.965857] [DEBUG] Response sent successfully, sockfd=6

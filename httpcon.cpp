@@ -13,6 +13,129 @@
 #include<sys/uio.h>
 #include"timer.h"
 #include"log.h"
+#include <unordered_map>
+#include <sstream>
+#include "db.h"
+
+
+// 初始化视频 MIME 类型映射
+std::unordered_map<std::string, std::string> s_videoMimeMap = {
+    {".mp4", "video/mp4"},
+    {".webm", "video/webm"},
+    {".ogg", "video/ogg"},
+    {".avi", "video/x-msvideo"},
+    {".mov", "video/quicktime"},
+    {".wmv", "video/x-ms-wmv"},
+    {".flv", "video/x-flv"},
+    {".m3u8", "application/vnd.apple.mpegurl"},  // HLS 流
+    {".ts", "video/MP2T"}
+};
+
+
+static int hex2int(char c){
+    if ('0'<=c && c<='9') return c-'0';
+    if ('a'<=c && c<='f') return c-'a'+10;
+    if ('A'<=c && c<='F') return c-'A'+10;
+    return 0;
+}
+
+static std::string url_decode(const std::string& s){
+    std::string out;
+    out.reserve(s.size());
+    for (size_t i=0;i<s.size();++i){
+        if (s[i]=='%'+0 && i+2<s.size()){
+            int v = hex2int(s[i+1])*16 + hex2int(s[i+2]);
+            out.push_back((char)v);
+            i+=2;
+        } else if (s[i]=='+'){
+            out.push_back(' ');
+        } else {
+            out.push_back(s[i]);
+        }
+    }
+    return out;
+}
+
+static std::unordered_map<std::string,std::string> parse_urlencoded(const std::string& body){
+    std::unordered_map<std::string,std::string> m;
+    size_t start=0;
+    while (start < body.size()){
+        size_t amp = body.find('&', start);
+        if (amp==std::string::npos) amp = body.size();
+        size_t eq = body.find('=', start);
+        if (eq!=std::string::npos && eq<amp){
+            auto k = url_decode(body.substr(start, eq-start));
+            auto v = url_decode(body.substr(eq+1, amp-eq-1));
+            m[k]=v;
+        }
+        start = amp+1;
+    }
+    return m;
+}
+
+
+// 解析 Range 请求头
+// 格式: Range: bytes=start-end
+RangeRequest httpcon::parseRangeRequest(const std::string& rangeHeader) {
+    RangeRequest range;
+    if (rangeHeader.empty()) return range;
+
+    // 去掉前后空白
+    auto s = rangeHeader;
+    while (!s.empty() && (s.back()==' '||s.back()=='\t'||s.back()=='\r')) s.pop_back();
+
+    if (s.rfind("bytes=", 0) != 0) return range;
+    std::string spec = s.substr(6);
+
+    // 不支持多段 range：bytes=0-1,2-3
+    if (spec.find(',') != std::string::npos) {
+        range.hasRange = true;   // 标记有 Range，但后面判为无效
+        range.start = -2;        // 用特殊值提示无效
+        range.end = -2;
+        return range;
+    }
+
+    size_t dash = spec.find('-');
+    if (dash == std::string::npos) return range;
+
+    range.hasRange = true;
+
+    try {
+        if (dash > 0) range.start = std::stoll(spec.substr(0, dash));
+        else range.start = -1; // "-suffix" 情况，先标记，后面转换
+        if (dash < spec.size()-1) range.end = std::stoll(spec.substr(dash+1));
+    } catch (...) {
+        range.start = -2; range.end = -2; // 解析失败
+    }
+
+    return range;
+}
+
+
+// 获取文件 MIME 类型
+std::string getMimeType(const std::string& filename) {
+    size_t dotPos = filename.rfind('.');
+    if (dotPos == std::string::npos) {
+        return "application/octet-stream";
+    }
+    
+    std::string ext = filename.substr(dotPos);
+    // 转为小写
+    for (auto& c : ext) c = tolower(c);
+    
+    // 先查视频类型
+    auto it = s_videoMimeMap.find(ext);
+    if (it != s_videoMimeMap.end()) {
+        return it->second;
+    }
+    
+    // 再查现有静态资源类型（html, css, js 等）
+    // ... 您原有的 mime 映射逻辑 ...
+    
+    return "application/octet-stream";
+}
+
+
 
 int httpcon::m_user_count = 0;     // 必须定义
 int httpcon::m_epollfd = -1;       // 必须定义
@@ -58,6 +181,12 @@ void httpcon::init() {
     m_method = GET;
     m_linger = false;
     m_timer = nullptr;
+    m_range_header = nullptr;
+    m_body = nullptr;
+    m_content_type = nullptr;
+    m_dyn_body.clear();
+    m_dyn_status = 200;
+
 }
 void httpcon::reset() {
     m_read_index = 0;
@@ -69,6 +198,12 @@ void httpcon::reset() {
     m_content_length = 0;
     m_method = GET;
     m_linger = false;
+    m_range_header = nullptr;
+    m_body = nullptr;
+    m_content_type = nullptr;
+    m_dyn_body.clear();
+    m_dyn_status = 200;
+
     // 不要动 m_sockfd / m_address / m_timer
 }
 void httpcon::init (int sockfd, sockaddr_in addr) {
@@ -183,7 +318,39 @@ httpcon::LINE_STATUS httpcon::parse_line() {
 
 
 httpcon::HTTP_CODE httpcon::do_request()
-{
+{   
+    if (m_method == POST && m_url && strcmp(m_url, "/login") == 0) {
+        std::string body = (m_body ? std::string(m_body) : "");
+        auto kv = parse_urlencoded(body);
+        std::string u = kv["username"];
+        std::string p = kv["password"];
+        bool ok = false;
+        try {
+            ok = DB::check_login(u, p);
+        } catch (...) {
+            ok = false;
+        }
+
+        if (ok) {
+            m_dyn_status = 200;
+            m_dyn_body =
+                "<!doctype html><html><meta charset='utf-8'>"
+                "<body><h2>登录成功</h2>"
+                "<p>欢迎，" + u + "</p>"
+                "<a href='/login.html'>返回</a>"
+                "</body></html>";
+        } else {
+            m_dyn_status = 401;
+            m_dyn_body =
+                "<!doctype html><html><meta charset='utf-8'>"
+                "<body><h2>登录失败</h2>"
+                "<p>用户名或密码错误</p>"
+                "<a href='/login.html'>重试</a>"
+                "</body></html>";
+        }
+
+        return DYNAMIC_REQUEST;
+    }
     strcpy( m_real_file, doc_root );
     int len = strlen( doc_root );
     strncpy( m_real_file + len, m_url, FILENAME_LEN - len - 1 );
@@ -238,11 +405,14 @@ httpcon::HTTP_CODE httpcon::parse_request_line(char* text) {
     // GET\0/index.html HTTP/1.1
     *m_url++ = '\0';    // 置位空字符，字符串结束符
     char* method = text;
-    if ( strcasecmp(method, "GET") == 0 ) { // 忽略大小写比较
+    if (strcasecmp(method, "GET") == 0) {
         m_method = GET;
+    } else if (strcasecmp(method, "POST") == 0) {
+        m_method = POST;
     } else {
         return BAD_REQUEST;
     }
+
     // /index.html HTTP/1.1
     // 检索字符串 str1 中第一个不在字符串 str2 中出现的字符下标。
     m_version = strpbrk( m_url, " \t" );
@@ -300,20 +470,28 @@ httpcon::HTTP_CODE httpcon::parse_headers(char* text) {
         text += 5;
         text += strspn( text, " \t" );
         m_host = text;
-    } else {
-        //printf( "oop! unknow header %s\n", text );
+    } else if (strncasecmp(text, "Range:", 6) == 0) {
+        text += 6;
+        text += strspn(text, " \t");
+        m_range_header = text;   // 记录 Range 值，如 "bytes=0-1023"
+    } else if (strncasecmp(text, "Content-Type:", 13) == 0) {
+        text += 13;
+        text += strspn(text, " \t");
+        m_content_type = text;
+}
+
+    return NO_REQUEST;
+}
+
+httpcon::HTTP_CODE httpcon::parse_content(char* text) {
+    if (m_read_index >= (m_content_length + m_checked_index)) {
+        text[m_content_length] = '\0';
+        m_body = text;                 // 保存 body
+        return GET_REQUEST;            // 表示“请求完整”
     }
     return NO_REQUEST;
 }
 
-httpcon::HTTP_CODE httpcon::parse_content( char* text ) {
-    if ( m_read_index >= ( m_content_length + m_checked_index ) )
-    {
-        text[ m_content_length ] = '\0';
-        return GET_REQUEST;
-    }
-    return NO_REQUEST;
-}
 httpcon::HTTP_CODE httpcon::process_READ() {
     HTTP_CODE ret = NO_REQUEST;
     LINE_STATUS line_status = LINE_OK;
@@ -409,6 +587,9 @@ static const char* get_mime_type(const char* path) {
     if (!strcasecmp(dot, ".html") || !strcasecmp(dot, ".htm")) return "text/html";
     if (!strcasecmp(dot, ".css")) return "text/css";
     if (!strcasecmp(dot, ".js")) return "application/javascript";
+    if (!strcasecmp(dot, ".mp4"))  return "video/mp4";     
+    if (!strcasecmp(dot, ".webm")) return "video/webm";     
+    if (!strcasecmp(dot, ".ogg"))  return "video/ogg";      
     return "application/octet-stream";
 }
 
@@ -449,23 +630,104 @@ bool httpcon::process_WRITE(httpcon::HTTP_CODE ret) {
                 return false;
             }
             break;
-        case FILE_REQUEST:
-            add_statu_line(200, ok_200_title );
-            add_headers(m_file_stat.st_size);
-            m_iv[ 0 ].iov_base = m_write_buffer;
-            m_iv[ 0 ].iov_len = m_write_index;
-            m_iv[ 1 ].iov_base = m_file_address;
-            m_iv[ 1 ].iov_len = m_file_stat.st_size;
+        case FILE_REQUEST: {
+            const long long size = (long long)m_file_stat.st_size;
+
+            if (m_range_header) {
+            RangeRequest r = parseRangeRequest(m_range_header);
+
+                // 解析失败/多段 range
+            if (!r.hasRange || r.start == -2) {
+                    // 416
+                add_statu_line(416, "Range Not Satisfiable");
+                add_response("Content-Range: bytes */%lld\r\n", size);
+                add_headers(0);
+                m_iv[0].iov_base = m_write_buffer;
+                m_iv[0].iov_len  = m_write_index;
+                m_iv_count = 1;
+                return true;
+            } 
+            long long start = r.start;
+            long long end   = r.end;
+
+            // 处理 "-suffix"：bytes=-500 表示最后 500 字节
+            if (start == -1) {
+                long long suffix = end;          // 这里 end 存的是 suffix 长度
+                if (suffix <= 0) suffix = 1;
+                if (suffix > size) suffix = size;
+                start = size - suffix;
+                end   = size - 1;
+            } else {
+                // "start-"：end=-1 表示到文件末尾
+                if (end < 0 || end >= size) end = size - 1;
+            }
+
+            // 关键校验：越界或反向
+            if (start < 0 || start >= size || end < start) {
+                add_statu_line(416, "Range Not Satisfiable");
+                add_response("Content-Range: bytes */%lld\r\n", size);
+                add_headers(0);
+                m_iv[0].iov_base = m_write_buffer;
+                m_iv[0].iov_len  = m_write_index;
+                m_iv_count = 1;
+                return true;
+            }
+
+            long long length = end - start + 1;
+
+            add_statu_line(206, "Partial Content");
+            add_response("Content-Type: video/mp4\r\n");
+            add_response("Content-Length: %lld\r\n", length);
+            add_response("Content-Range: bytes %lld-%lld/%lld\r\n", start, end, size);
+            add_response("Accept-Ranges: bytes\r\n");
+            add_linger();
+            add_blank_line();
+
+            m_iv[0].iov_base = m_write_buffer;
+            m_iv[0].iov_len  = m_write_index;
+            m_iv[1].iov_base = m_file_address + start;
+            m_iv[1].iov_len  = (size_t)length;
             m_iv_count = 2;
             return true;
-        default:
-            return false;
-    }
+            }else {               // 完整文件（原有逻辑）
+                add_statu_line(200, ok_200_title);
+                add_response("Accept-Ranges: bytes\r\n");  // ← 告诉浏览器支持范围请求
+                add_headers(m_file_stat.st_size);
+                m_iv[0].iov_base = m_write_buffer;
+                m_iv[0].iov_len  = m_write_index;
+                m_iv[1].iov_base = m_file_address;
+                m_iv[1].iov_len  = m_file_stat.st_size;
+                m_iv_count = 2;
+            }
+            return true;
+        }
+        case DYNAMIC_REQUEST: {
+            int status = m_dyn_status;
+            const char* title = (status==200 ? "OK" : (status==401 ? "Unauthorized" : "OK"));
+            add_statu_line(status, title);
 
-    m_iv[ 0 ].iov_base = m_write_buffer;
-    m_iv[ 0 ].iov_len = m_write_index;
-    m_iv_count = 1;
-    return true;
+            // 动态内容我们固定 text/html
+            add_response("Content-Type: text/html; charset=utf-8\r\n");
+            add_content_length((int)m_dyn_body.size());
+            add_linger();
+            add_blank_line();
+
+            // 头在 m_write_buffer，body 用第二个 iovec
+            m_iv[0].iov_base = m_write_buffer;
+            m_iv[0].iov_len  = m_write_index;
+
+            m_iv[1].iov_base = (void*)m_dyn_body.data();
+            m_iv[1].iov_len  = m_dyn_body.size();
+
+            m_iv_count = 2;
+            return true;
+        }
+
+        m_iv[ 0 ].iov_base = m_write_buffer;
+        m_iv[ 0 ].iov_len = m_write_index;
+        m_iv_count = 1;
+        return true;
+    }
 }
 
 void httpcon::process() {

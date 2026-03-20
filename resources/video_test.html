@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>视频播放测试</title>
+</head>
+<body>
+    <h1>视频流媒体测试</h1>
+    
+    <!-- HTML5 视频播放器 -->
+    <video width="800" controls autoplay>
+        <source src="sample.mp4" type="video/mp4">
+        您的浏览器不支持视频播放
+    </video>
+    
+    <h2>测试功能</h2>
+    <ul>
+        <li>✅ 点击播放按钮开始播放</li>
+        <li>✅ 拖拽进度条（测试 Range 请求）</li>
+        <li>✅ 暂停后继续（测试连接保持）</li>
+        <li>✅ 刷新页面重新加载</li>
+    </ul>
+    
+    <script>
+        var video = document.querySelector('video');
+        video.addEventListener('loadedmetadata', function() {
+            console.log('视频时长:', video.duration, '秒');
+            console.log('视频尺寸:', video.videoWidth, 'x', video.videoHeight);
+        });
+    </script>
+</body>
+</html>

@@ -11,8 +11,13 @@
 #include"timer.h"
 #include"log.h"
 #include"access_control.h"
-#include <string>
-#include <cstring>
+#include<string>
+#include<cstring>
+#include<signal.h>
+#include "db.h"
+
+
+
 
 timer_list timerlist;
 static void setnonblocking(int fd) {
@@ -42,6 +47,7 @@ static void print_usage(const char* prog) {
 }
 
 int main (int argc, char* argv[]) {
+    signal(SIGPIPE, SIG_IGN);
     // --------- parse args ---------
     bool async_log = true;
     int log_queue_size = 1024;
@@ -72,6 +78,9 @@ int main (int argc, char* argv[]) {
     LOG_INFO("========== Server Start ==========");
 
     LOG_INFO("Log mode: %s", async_log ? "ASYNC" : "SYNC");
+
+    //初始化数据库连接池
+    DB::init("127.0.0.1", "app", "123456", "mydb", 3306);
 
     // --------- access control ---------
     AccessControl access;

@@ -1,14 +1,14 @@
 CC = g++
-CFLAGS = -Wall -g
+CXXFLAGS = -Wall -std=c++17
 TARGET = server
-OBJS = httpcon.o locker.o main.o sem.o timer_list.o timer.o log.o access_control.o
+OBJS = httpcon.o locker.o main.o sem.o timer_list.o timer.o log.o access_control.o db.o
 
 all: $(TARGET)
 
-$(TARGET): $(OBJS)
-	$(CC) $(CXXFLAGS) -o $(TARGET) $(OBJS) -lpthread 
+$(TARGET): $(OBJS)	
+	$(CC) $(CXXFLAGS) -o $(TARGET) $(OBJS) -lpthread -lmysqlclient
 
-httpcon.o: httpcon.cpp httpcon.h timer.h log.h
+httpcon.o: httpcon.cpp httpcon.h timer.h log.h db.h access_control.h
 	$(CC) $(CXXFLAGS) -c httpcon.cpp
 
 locker.o: locker.cpp locker.h
@@ -17,10 +17,10 @@ locker.o: locker.cpp locker.h
 log.o: log.cpp log.h locker.h
 	$(CC) $(CXXFLAGS) -c log.cpp
 
-main.o: main.cpp macro.h httpcon.h pool.h timer_list.h timer.h log.h
+main.o: main.cpp macro.h httpcon.h pool.h timer_list.h timer.h log.h db.h access_control.h
 	$(CC) $(CXXFLAGS) -c main.cpp
 
-access_control.o: access_control.cpp access_control.h
+access_control.o: access_control.cpp access_control.h 
 	$(CC) $(CXXFLAGS) -c access_control.cpp
 
 sem.o: sem.cpp sem.h
@@ -31,6 +31,9 @@ timer_list.o: timer_list.cpp timer_list.h timer.h
 
 timer.o: timer.cpp timer.h
 	$(CC) $(CXXFLAGS) -c timer.cpp
+
+db.o: db.cpp db.h log.h
+	$(CC) $(CXXFLAGS) -c db.cpp
 
 clean:
 	rm -f $(OBJS) $(TARGET)

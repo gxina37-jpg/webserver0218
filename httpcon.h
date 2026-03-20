@@ -6,10 +6,19 @@
 #include<sys/stat.h>
 #include<fcntl.h>
 #include"timer.h"
+#include<unordered_map>
+
+struct RangeRequest {
+    bool hasRange;
+    long long start;
+    long long end;
+    
+    RangeRequest() : hasRange(false), start(0), end(-1) {}
+};
 
 class httpcon {
     public:
-        enum HTTP_CODE {NO_REQUEST, GET_REQUEST, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION};
+        enum HTTP_CODE {NO_REQUEST, GET_REQUEST, BAD_REQUEST, NO_RESOURCE, FORBIDDEN_REQUEST, FILE_REQUEST, INTERNAL_ERROR, CLOSED_CONNECTION, DYNAMIC_REQUEST};
         enum METHOD {GET = 0, POST, HEAD, PUT,  DELETE, TRACE, OPTIONS, CONNECT};
         enum CHECK_STATE {CHECK_STATE_REQUESTLINE = 0, CHECK_STATE_HEADER, CHECK_STATE_CONTENT};
         enum LINE_STATUS { LINE_OK = 0, LINE_BAD, LINE_OPEN };
@@ -18,6 +27,8 @@ class httpcon {
         static const int WRITE_BUFFER_SIZE = 1024;
         static int m_epollfd;
         static int m_user_count;
+        int m_sockfd;
+        char* m_range_header;   // 存储 Range 头部值
         httpcon();
         ~httpcon();
         void init(int sockfd, sockaddr_in addr);
@@ -29,7 +40,6 @@ class httpcon {
         bool write();
         timer* m_timer;
     private:
-        int m_sockfd;
         sockaddr_in m_address;
         HTTP_CODE process_READ();
         bool process_WRITE(HTTP_CODE ret);
@@ -66,8 +76,17 @@ class httpcon {
         bool add_linger();
         struct stat m_file_stat;                // 目标文件的状态。通过它我们可以判断文件是否存在、是否为目录、是否可读，并获取文件大小等信息
         struct iovec m_iv[2];                   // 我们将采用writev来执行写操作，所以定义下面两个成员，其中m_iv_count表示被写内存块的数量。
-};
 
+        static std::unordered_map<std::string, std::string> s_videoMimeMap; //视频 MIME 类型映射
+        RangeRequest parseRangeRequest(const std::string& rangeHeader);  //解析 Range 请求头  
+        std::string getMimeType(const std::string& filename); //获取文件 MIME 类型
+
+        char* m_body;              // 指向请求体（在 read_buffer 内）
+        char* m_content_type;      // Content-Type
+        std::string m_dyn_body;    // 动态返回内容
+        int m_dyn_status;          // 动态返回状态码
+
+};
 
 
 #endif

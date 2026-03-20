@@ -45,8 +45,6 @@ int AccessControl::load_list_file(const std::string& path, std::unordered_set<ui
             // 解析失败：忽略该行（不终止）
             continue;
         }
-        std::cout << "加载IP地址" << std::endl;
-        std::cout << addr.s_addr << std::endl;
         out.insert(addr.s_addr);
         loaded++;
     }
@@ -64,14 +62,8 @@ int AccessControl::load_blacklist(const std::string& path) {
 bool AccessControl::allow(const sockaddr_in& addr) const {
     uint32_t ip = addr.sin_addr.s_addr;
     // 黑名单优先
-    for (auto i : m_blacklist) {
-        std::cout << i << std::endl;
-    }
-    std::cout << "IP地址" << "\n";
     char buf[INET_ADDRSTRLEN] = {0};
     inet_ntop(AF_INET, &ip, buf, sizeof(buf));
-    std::cout << buf << std::endl;
-    std::cout << ip << std::endl;
     if (!m_blacklist.empty() && m_blacklist.find(ip) != m_blacklist.end()) {
         return false;
     }

@@ -63,7 +63,6 @@ void timer_list::tick() {
     if (!head) {
         return ;
     }
-    printf("timer tick\n");
     time_t cur = time(NULL);
     timer* tmp = head;
     while (tmp) {
